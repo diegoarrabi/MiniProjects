@@ -1,0 +1,62 @@
+#!/usr/local/bin/python
+
+from sys import argv
+from subprocess import run
+
+def main(argument: list=[]):
+    textToCopy = ""
+    with open("sample-text", "r") as textOpen:
+            textString = textOpen.read()
+            textReduced = textString.replace(".", "").lower()
+            textReduced = textReduced.replace(",", "")
+            textList = textReduced.split(" ")
+
+    scriptCommand = parseArgument(argument)
+
+    match scriptCommand:
+        case "HELP":
+            printHelpMessage()
+            textToCopy = textString[:57]
+        case "STRING":
+            listToCopy = textList[:int(argument[0])]
+            for i in listToCopy:
+                textToCopy += f"{i} "
+                textToCopy.strip()
+        case "ARRAY":
+            listToCopy = textList[:int(argument[1])]
+            textToCopy = str(listToCopy)
+        case _:
+            return
+    
+    print((textToCopy))
+        
+def parseArgument(argument: list) -> str:
+    # NO ARGUMENTS -- DISPLAY HELP MESSAGE & COPY ONE SENTENCE
+    if len(argument) == 0:
+        return "HELP"
+    # FIRST ARGUMENT IS AN INT -- STRING WITH `INT` AMOUNT OF WORDS
+    elif argument[0].isnumeric():
+        if int(argument[0]) > 86: argument[0] = 86
+        return "STRING"
+    # FIRST ARGUMENT IS STRING -- LIST OF WORDS LENGTH 2ND ARGUMENT, 10 IF NO 2ND ARGUMENT
+    else:
+        if len(argument) > 1:
+            if int(argument[1]) > 86: argument[1] = 86
+        else:
+            argument.insert(1, 5)
+        return "ARRAY"
+
+def printHelpMessage():
+    print("")
+
+def copy2Clip(strVar: str) -> str:
+    run("pbcopy", text=True, input=strVar)
+    return strVar
+    
+
+
+
+
+if __name__ == "__main__":
+    main(argv[1:])
+
