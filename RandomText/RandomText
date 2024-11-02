@@ -1,11 +1,16 @@
 #!/usr/local/bin/python
 
+from os import path
 from sys import argv
 from subprocess import run
 
+
 def main(argument: list=[]):
+    textFilePath = path.join("/Users/diegoibarra/Developer/1_myProjects/MiniProjects/RandomText", "sample-text")
+    
+
     textToCopy = ""
-    with open("sample-text", "r") as textOpen:
+    with open(textFilePath, "r") as textOpen:
             textString = textOpen.read()
             textReduced = textString.replace(".", "").lower()
             textReduced = textReduced.replace(",", "")
@@ -28,7 +33,7 @@ def main(argument: list=[]):
         case _:
             return
     
-    print((textToCopy))
+    copy2Clip(textToCopy)
         
 def parseArgument(argument: list) -> str:
     # NO ARGUMENTS -- DISPLAY HELP MESSAGE & COPY ONE SENTENCE
@@ -49,13 +54,10 @@ def parseArgument(argument: list) -> str:
 def printHelpMessage():
     print("")
 
-def copy2Clip(strVar: str) -> str:
+def copy2Clip(strVar: str):
     run("pbcopy", text=True, input=strVar)
-    return strVar
+    print(strVar)
     
-
-
-
 
 if __name__ == "__main__":
     main(argv[1:])
