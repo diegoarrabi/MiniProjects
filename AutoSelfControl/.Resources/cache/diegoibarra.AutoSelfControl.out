@@ -1,0 +1,1151 @@
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0806_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-06 01:00:05.445 selfcontrol-cli[89054:2253053] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+Clicking OK button
+2024-08-06 01:00:11.184 selfcontrol-cli[89054:2253053] Daemon installed successfully!
+2024-08-06 01:00:11.184 selfcontrol-cli[89054:2253053] Refreshed connection and ready to start block!
+2024-08-06 01:00:11.184 selfcontrol-cli[89054:2253053] Connecting to helper tool, daemon connection is (null)
+2024-08-06 01:00:11.185 selfcontrol-cli[89054:2253053] Started helper connection!
+2024-08-06 01:00:11.739 selfcontrol-cli[89054:2253053] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "www.123series.bz",
+    "ww16.0123movie.net"
+)) since version 316 is newer than 315 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 04:18:06 +0000
+2024-08-06 01:00:11.741 selfcontrol-cli[89054:2253053] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 317 is newer than 316 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.741 selfcontrol-cli[89054:2253053] Accepting propagated change (BlockEndDate --> 2024-08-06 21:00:05 +0000) since version 318 is newer than 317 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.742 selfcontrol-cli[89054:2253053] Accepting propagated change (ClearCaches --> 1) since version 319 is newer than 318 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.742 selfcontrol-cli[89054:2253053] Accepting propagated change (AllowLocalNetworks --> 1) since version 320 is newer than 319 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.743 selfcontrol-cli[89054:2253053] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 321 is newer than 320 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.744 selfcontrol-cli[89054:2253053] Accepting propagated change (IncludeLinkedDomains --> 1) since version 322 is newer than 321 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.744 selfcontrol-cli[89054:2253053] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 323 is newer than 322 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.745 selfcontrol-cli[89054:2253053] Accepting propagated change (BlockSound --> 5) since version 324 is newer than 323 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.745 selfcontrol-cli[89054:2253053] Accepting propagated change (EnableErrorReporting --> 1) since version 325 is newer than 324 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:11.988 selfcontrol-cli[89054:2253053] Accepting propagated change (BlockIsRunning --> 1) since version 326 is newer than 325 and/or 2024-08-06 05:00:11 +0000 is newer than 2024-08-06 05:00:11 +0000
+2024-08-06 01:00:12.066 selfcontrol-cli[89054:2253062] INFO: Block successfully added.
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0807_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-07 01:00:32.814 selfcontrol-cli[94318:2675227] created legacy block end date (null) from --blocklist
+2024-08-07 01:00:32.828 selfcontrol-cli[94318:2675227] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-08-07 01:00:32.829 selfcontrol-cli[94318:2675227] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+Finding Process: 1
+2024-08-07 01:00:32.834 selfcontrol-cli[94318:2675227] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0808_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-08 01:00:05.551 selfcontrol-cli[4469:3389284] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+Finding Window: 1
+Finding Window: 2
+Finding Window: 3
+Finding Window: 4
+Finding Window: 5
+Finding Window: 6
+Finding Window: 7
+Finding Window: 8
+Finding Window: 9
+Finding Window: 10
+Finding Window: 11
+Finding Window: 12
+Finding Window: 13
+Finding Window: 14
+Finding Window: 15
+Finding Window: 16
+Finding Window: 17
+Finding Window: 18
+Finding Window: 19
+Finding Window: 20
+Finding Window: 21
+Finding Window: 22
+Finding Window: 23
+Finding Window: 24
+Finding Window: 25
+Finding Window: 26
+Finding Window: 27
+Finding Window: 28
+Finding Window: 29
+Finding Window: 30
+Finding Window: 31
+Finding Window: 32
+Finding Window: 33
+Finding Window: 34
+Finding Window: 35
+Finding Window: 36
+Finding Window: 37
+Finding Window: 38
+Finding Window: 39
+Finding Window: 40
+Finding Window: 41
+Finding Window: 42
+Finding Window: 43
+Finding Window: 44
+Finding Window: 45
+Finding Window: 46
+Finding Window: 47
+Finding Window: 48
+Finding Window: 49
+Finding Window: 50
+Finding Window: 51
+Finding Window: 52
+Finding Window: 53
+Finding Window: 54
+Finding Window: 55
+Finding Window: 56
+Finding Window: 57
+Finding Window: 58
+Finding Window: 59
+Finding Window: 60
+Finding Window: 61
+Finding Window: 62
+Finding Window: 63
+Finding Window: 64
+Finding Window: 65
+Finding Window: 66
+Finding Window: 67
+Finding Window: 68
+Finding Window: 69
+Finding Window: 70
+Finding Window: 71
+Finding Window: 72
+Finding Window: 73
+Finding Window: 74
+Finding Window: 75
+Finding Window: 76
+Finding Window: 77
+Finding Window: 78
+Finding Window: 79
+Finding Window: 80
+Finding Window: 81
+Finding Window: 82
+Finding Window: 83
+Finding Window: 84
+Finding Window: 85
+Finding Window: 86
+Finding Window: 87
+Finding Window: 88
+Finding Window: 89
+Finding Window: 90
+Finding Window: 91
+Finding Window: 92
+Finding Window: 93
+Finding Window: 94
+Finding Window: 95
+Finding Window: 96
+Finding Window: 97
+Finding Window: 98
+Finding Window: 99
+Finding Window: 100
+Finding Window: 101
+Finding Window: 102
+Finding Window: 103
+Finding Window: 104
+Finding Window: 105
+Finding Window: 106
+Finding Window: 107
+Finding Window: 108
+Finding Window: 109
+Finding Window: 110
+Finding Window: 111
+Finding Window: 112
+Finding Window: 113
+Finding Window: 114
+Finding Window: 115
+Finding Window: 116
+Finding Window: 117
+Finding Window: 118
+Finding Window: 119
+Finding Window: 120
+Finding Window: 121
+Finding Window: 122
+Finding Window: 123
+Finding Window: 124
+Finding Window: 125
+Finding Window: 126
+Finding Window: 127
+Finding Window: 128
+Finding Window: 129
+Finding Window: 130
+Finding Window: 131
+Finding Window: 132
+Finding Window: 133
+Finding Window: 134
+Finding Window: 135
+Finding Window: 136
+Finding Window: 137
+Finding Window: 138
+Finding Window: 139
+Finding Window: 140
+Finding Window: 141
+Finding Window: 142
+Finding Window: 143
+Finding Window: 144
+Finding Window: 145
+Finding Window: 146
+Finding Window: 147
+Finding Window: 148
+Finding Window: 149
+Finding Window: 150
+Finding Window: 151
+Finding Window: 152
+Finding Window: 153
+Finding Window: 154
+Finding Window: 155
+Finding Window: 156
+Finding Window: 157
+Finding Window: 158
+Finding Window: 159
+Finding Window: 160
+Finding Window: 161
+Finding Window: 162
+Finding Window: 163
+Finding Window: 164
+Finding Window: 165
+Finding Window: 166
+Finding Window: 167
+Finding Window: 168
+Finding Window: 169
+Finding Window: 170
+Finding Window: 171
+Finding Window: 172
+Finding Window: 173
+Finding Window: 174
+Finding Window: 175
+Finding Window: 176
+Finding Window: 177
+Finding Window: 178
+Finding Window: 179
+Finding Window: 180
+Finding Window: 181
+Finding Window: 182
+Finding Window: 183
+Finding Window: 184
+Finding Window: 185
+Finding Window: 186
+Finding Window: 187
+Finding Window: 188
+Finding Window: 189
+Finding Window: 190
+Finding Window: 191
+Finding Window: 192
+Finding Window: 193
+Finding Window: 194
+Finding Window: 195
+Finding Window: 196
+Finding Window: 197
+Finding Window: 198
+Finding Window: 199
+Finding Window: 200
+Finding Window: 201
+Finding Window: 202
+Finding Window: 203
+Finding Window: 204
+Finding Window: 205
+Finding Window: 206
+Finding Window: 207
+Finding Window: 208
+Finding Window: 209
+Finding Window: 210
+Finding Window: 211
+Finding Window: 212
+Finding Window: 213
+Finding Window: 214
+Finding Window: 215
+Finding Window: 216
+Finding Window: 217
+Finding Window: 218
+Finding Window: 219
+Finding Window: 220
+Finding Window: 221
+Finding Window: 222
+Finding Window: 223
+Finding Window: 224
+Finding Window: 225
+Finding Window: 226
+Finding Window: 227
+Finding Window: 228
+Finding Window: 229
+Finding Window: 230
+Finding Window: 231
+Finding Window: 232
+Finding Window: 233
+Finding Window: 234
+Finding Window: 235
+Finding Window: 236
+Finding Window: 237
+Finding Window: 238
+Finding Window: 239
+Finding Window: 240
+Finding Window: 241
+Finding Window: 242
+Finding Window: 243
+Finding Window: 244
+Finding Window: 245
+Finding Window: 246
+Finding Window: 247
+Finding Window: 248
+Finding Window: 249
+Finding Window: 250
+Finding Window: 251
+Finding Window: 252
+Finding Window: 253
+Finding Window: 254
+Finding Window: 255
+Finding Window: 256
+Finding Window: 257
+Finding Window: 258
+Finding Window: 259
+Finding Window: 260
+Finding Window: 261
+Finding Window: 262
+Finding Window: 263
+Finding Window: 264
+Finding Window: 265
+Finding Window: 266
+Finding Window: 267
+Finding Window: 268
+Finding Window: 269
+Finding Window: 270
+Finding Window: 271
+Finding Window: 272
+Finding Window: 273
+Finding Window: 274
+Finding Window: 275
+Finding Window: 276
+Finding Window: 277
+Finding Window: 278
+Finding Window: 279
+Finding Window: 280
+Finding Window: 281
+Finding Window: 282
+Finding Window: 283
+Finding Window: 284
+Finding Window: 285
+Finding Window: 286
+Finding Window: 287
+Finding Window: 288
+Finding Window: 289
+Finding Window: 290
+Finding Window: 291
+Finding Window: 292
+Finding Window: 293
+Finding Window: 294
+Finding Window: 295
+Finding Window: 296
+Finding Window: 297
+Finding Window: 298
+Finding Window: 299
+Finding Window: 300
+Finding Window: 301
+SecurityAgent Window NOT found
+./AdminApproval_scpt:780:797: execution error: User canceled. (-128)
+2024-08-08 20:34:49.381 selfcontrol-cli[4469:3389284] Daemon installed successfully!
+2024-08-08 20:34:49.383 selfcontrol-cli[4469:3389284] Refreshed connection and ready to start block!
+2024-08-08 20:34:49.383 selfcontrol-cli[4469:3389284] Connecting to helper tool, daemon connection is (null)
+2024-08-08 20:34:49.384 selfcontrol-cli[4469:3389284] Started helper connection!
+2024-08-08 20:34:50.092 selfcontrol-cli[4469:3389284] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "www.123series.bz",
+    "ww16.0123movie.net"
+)) since version 331 is newer than 330 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-06 21:06:28 +0000
+2024-08-08 20:34:50.093 selfcontrol-cli[4469:3389284] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 332 is newer than 331 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.094 selfcontrol-cli[4469:3389284] Accepting propagated change (BlockEndDate --> 2024-08-08 21:00:05 +0000) since version 333 is newer than 332 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.094 selfcontrol-cli[4469:3389284] Accepting propagated change (ClearCaches --> 1) since version 334 is newer than 333 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.095 selfcontrol-cli[4469:3389284] Accepting propagated change (AllowLocalNetworks --> 1) since version 335 is newer than 334 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.096 selfcontrol-cli[4469:3389284] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 336 is newer than 335 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.096 selfcontrol-cli[4469:3389284] Accepting propagated change (IncludeLinkedDomains --> 1) since version 337 is newer than 336 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.097 selfcontrol-cli[4469:3389284] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 338 is newer than 337 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.097 selfcontrol-cli[4469:3389284] Accepting propagated change (BlockSound --> 5) since version 339 is newer than 338 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.098 selfcontrol-cli[4469:3389284] Accepting propagated change (EnableErrorReporting --> 1) since version 340 is newer than 339 and/or 2024-08-09 00:34:50 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-08 20:34:50.099 selfcontrol-cli[4469:3817694] Start block failed with error = Error Domain=SelfControlErrorDomain Code=302 "SelfControl hit an unknown error with code 302." UserInfo={SCDescriptionNotFound=true, NSLocalizedDescription=SelfControl hit an unknown error with code 302.}
+2024-08-08 20:34:50.099 selfcontrol-cli[4469:3817694] Reporting error Error Domain=SelfControlErrorDomain Code=302 "SelfControl hit an unknown error with code 302." UserInfo={SCDescriptionNotFound=true, NSLocalizedDescription=SelfControl hit an unknown error with code 302.} to Sentry...
+2024-08-08 20:34:50.104 selfcontrol-cli[4469:3817694] ERROR: Daemon failed to start block with error Error Domain=SelfControlErrorDomain Code=302 "SelfControl hit an unknown error with code 302." UserInfo={SCDescriptionNotFound=true, NSLocalizedDescription=SelfControl hit an unknown error with code 302.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0809_0101------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-09 01:01:11.168 selfcontrol-cli[14206:4067162] created legacy block end date (null) from --blocklist
+2024-08-09 01:01:11.183 selfcontrol-cli[14206:4067162] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-08-09 01:01:11.183 selfcontrol-cli[14206:4067162] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-08-09 01:01:11.190 selfcontrol-cli[14206:4067162] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0811_0009------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-11 00:09:56.803 selfcontrol-cli[42233:4321842] created legacy block end date (null) from --blocklist
+Finding Process: 1
+Finding Process: 2
+SelfControl Process IS Running
+Finding Window: 1
+Finding Window: 2
+Finding Window: 3
+Finding Window: 4
+Finding Window: 5
+Finding Window: 6
+Finding Window: 7
+Finding Window: 8
+Finding Window: 9
+Finding Window: 10
+Finding Window: 11
+Finding Window: 12
+Finding Window: 13
+Finding Window: 14
+Finding Window: 15
+Finding Window: 16
+Finding Window: 17
+Finding Window: 18
+Finding Window: 19
+Finding Window: 20
+Finding Window: 21
+Finding Window: 22
+Finding Window: 23
+Finding Window: 24
+Finding Window: 25
+Finding Window: 26
+Finding Window: 27
+Finding Window: 28
+Finding Window: 29
+Finding Window: 30
+Finding Window: 31
+Finding Window: 32
+Finding Window: 33
+Finding Window: 34
+Finding Window: 35
+Finding Window: 36
+Finding Window: 37
+Finding Window: 38
+Finding Window: 39
+Finding Window: 40
+Finding Window: 41
+Finding Window: 42
+Finding Window: 43
+Finding Window: 44
+Finding Window: 45
+Finding Window: 46
+Finding Window: 47
+Finding Window: 48
+Finding Window: 49
+Finding Window: 50
+Finding Window: 51
+Finding Window: 52
+Finding Window: 53
+Finding Window: 54
+Finding Window: 55
+Finding Window: 56
+Finding Window: 57
+Finding Window: 58
+Finding Window: 59
+Finding Window: 60
+Finding Window: 61
+Finding Window: 62
+Finding Window: 63
+Finding Window: 64
+Finding Window: 65
+Finding Window: 66
+Finding Window: 67
+Finding Window: 68
+Finding Window: 69
+Finding Window: 70
+Finding Window: 71
+Finding Window: 72
+Finding Window: 73
+Finding Window: 74
+Finding Window: 75
+Finding Window: 76
+Finding Window: 77
+Finding Window: 78
+Finding Window: 79
+Clicking OK button
+2024-08-11 00:10:08.966 selfcontrol-cli[42233:4321842] Daemon installed successfully!
+2024-08-11 00:10:08.966 selfcontrol-cli[42233:4321842] Refreshed connection and ready to start block!
+2024-08-11 00:10:08.967 selfcontrol-cli[42233:4321842] Connecting to helper tool, daemon connection is (null)
+2024-08-11 00:10:08.967 selfcontrol-cli[42233:4321842] Started helper connection!
+2024-08-11 00:10:14.442 selfcontrol-cli[42233:4321842] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "www.123series.bz",
+    "ww16.0123movie.net"
+)) since version 341 is newer than 340 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-09 00:34:50 +0000
+2024-08-11 00:10:14.446 selfcontrol-cli[42233:4321842] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 342 is newer than 341 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.448 selfcontrol-cli[42233:4321842] Accepting propagated change (BlockEndDate --> 2024-08-11 20:09:56 +0000) since version 343 is newer than 342 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.449 selfcontrol-cli[42233:4321842] Accepting propagated change (ClearCaches --> 1) since version 344 is newer than 343 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.450 selfcontrol-cli[42233:4321842] Accepting propagated change (AllowLocalNetworks --> 1) since version 345 is newer than 344 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.452 selfcontrol-cli[42233:4321842] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 346 is newer than 345 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.453 selfcontrol-cli[42233:4321842] Accepting propagated change (IncludeLinkedDomains --> 1) since version 347 is newer than 346 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.453 selfcontrol-cli[42233:4321842] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 348 is newer than 347 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.455 selfcontrol-cli[42233:4321842] Accepting propagated change (BlockSound --> 5) since version 349 is newer than 348 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.455 selfcontrol-cli[42233:4321842] Accepting propagated change (EnableErrorReporting --> 1) since version 350 is newer than 349 and/or 2024-08-11 04:10:14 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:14.803 selfcontrol-cli[42233:4321855] Syncing settings due to propagated changes
+2024-08-11 00:10:14.804 selfcontrol-cli[42233:4321855]  --> Writing settings to disk (haven't been written since 2024-08-11 04:09:56 +0000)
+2024-08-11 00:10:15.911 selfcontrol-cli[42233:4321842] Accepting propagated change (BlockIsRunning --> 1) since version 351 is newer than 350 and/or 2024-08-11 04:10:15 +0000 is newer than 2024-08-11 04:10:14 +0000
+2024-08-11 00:10:16.258 selfcontrol-cli[42233:4321855] Syncing settings due to propagated changes
+2024-08-11 00:10:16.258 selfcontrol-cli[42233:4321855]  --> Writing settings to disk (haven't been written since 2024-08-11 04:10:14 +0000)
+2024-08-11 00:10:16.901 selfcontrol-cli[42233:4321855] INFO: Block successfully added.
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0811_0113------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-11 01:13:51.174 selfcontrol-cli[42655:4355428] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0812_0106------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-12 01:06:20.193 selfcontrol-cli[43334:4411720] created legacy block end date (null) from --blocklist
+2024-08-12 01:06:20.212 selfcontrol-cli[43334:4411720] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-08-12 01:06:20.213 selfcontrol-cli[43334:4411720] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-08-12 01:06:20.221 selfcontrol-cli[43334:4411720] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0813_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-13 01:00:02.379 selfcontrol-cli[76664:4702495] created legacy block end date (null) from --blocklist
+Finding Process: 1
+SelfControl Process IS Running
+Finding Window: 1
+Clicking OK button
+2024-08-13 01:00:08.123 selfcontrol-cli[76664:4702495] Daemon installed successfully!
+2024-08-13 01:00:08.123 selfcontrol-cli[76664:4702495] Refreshed connection and ready to start block!
+2024-08-13 01:00:08.123 selfcontrol-cli[76664:4702495] Connecting to helper tool, daemon connection is (null)
+2024-08-13 01:00:08.123 selfcontrol-cli[76664:4702495] Started helper connection!
+2024-08-13 01:00:08.995 selfcontrol-cli[76664:4702495] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "www.123series.bz",
+    "ww16.0123movie.net"
+)) since version 356 is newer than 355 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-11 20:10:32 +0000
+2024-08-13 01:00:08.995 selfcontrol-cli[76664:4702495] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 357 is newer than 356 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:08 +0000
+2024-08-13 01:00:08.996 selfcontrol-cli[76664:4702495] Accepting propagated change (BlockEndDate --> 2024-08-13 21:00:02 +0000) since version 358 is newer than 357 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:08 +0000
+2024-08-13 01:00:08.997 selfcontrol-cli[76664:4702495] Accepting propagated change (ClearCaches --> 1) since version 359 is newer than 358 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:08 +0000
+2024-08-13 01:00:08.998 selfcontrol-cli[76664:4702495] Accepting propagated change (AllowLocalNetworks --> 1) since version 360 is newer than 359 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:08 +0000
+2024-08-13 01:00:08.999 selfcontrol-cli[76664:4702495] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 361 is newer than 360 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:08 +0000
+2024-08-13 01:00:09.000 selfcontrol-cli[76664:4702495] Accepting propagated change (IncludeLinkedDomains --> 1) since version 362 is newer than 361 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:09 +0000
+2024-08-13 01:00:09.000 selfcontrol-cli[76664:4702495] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 363 is newer than 362 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:09 +0000
+2024-08-13 01:00:09.007 selfcontrol-cli[76664:4702495] Accepting propagated change (BlockSound --> 5) since version 364 is newer than 363 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:09 +0000
+2024-08-13 01:00:09.007 selfcontrol-cli[76664:4702495] Accepting propagated change (EnableErrorReporting --> 1) since version 365 is newer than 364 and/or 2024-08-13 05:00:08 +0000 is newer than 2024-08-13 05:00:09 +0000
+2024-08-13 01:00:09.208 selfcontrol-cli[76664:4702495] Accepting propagated change (BlockIsRunning --> 1) since version 366 is newer than 365 and/or 2024-08-13 05:00:09 +0000 is newer than 2024-08-13 05:00:09 +0000
+2024-08-13 01:00:09.402 selfcontrol-cli[76664:4702515] INFO: Block successfully added.
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0814_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-14 01:00:17.477 selfcontrol-cli[94477:5025235] created legacy block end date (null) from --blocklist
+2024-08-14 01:00:17.489 selfcontrol-cli[94477:5025235] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-08-14 01:00:17.490 selfcontrol-cli[94477:5025235] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+Finding Process: 1
+2024-08-14 01:00:17.496 selfcontrol-cli[94477:5025235] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0815_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-15 01:00:04.771 selfcontrol-cli[6056:5287322] created legacy block end date (null) from --blocklist
+Finding Process: 1
+SelfControl Process IS Running
+Finding Window: 1
+Clicking OK button
+2024-08-15 01:00:10.581 selfcontrol-cli[6056:5287322] Daemon installed successfully!
+2024-08-15 01:00:10.581 selfcontrol-cli[6056:5287322] Refreshed connection and ready to start block!
+2024-08-15 01:00:10.592 selfcontrol-cli[6056:5287322] Connecting to helper tool, daemon connection is (null)
+2024-08-15 01:00:10.593 selfcontrol-cli[6056:5287322] Started helper connection!
+2024-08-15 01:00:11.228 selfcontrol-cli[6056:5287322] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "www.123series.bz",
+    "ww16.0123movie.net"
+)) since version 371 is newer than 370 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-13 21:14:15 +0000
+2024-08-15 01:00:11.230 selfcontrol-cli[6056:5287322] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 372 is newer than 371 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.231 selfcontrol-cli[6056:5287322] Accepting propagated change (BlockEndDate --> 2024-08-15 21:00:04 +0000) since version 373 is newer than 372 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.232 selfcontrol-cli[6056:5287322] Accepting propagated change (ClearCaches --> 1) since version 374 is newer than 373 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.233 selfcontrol-cli[6056:5287322] Accepting propagated change (AllowLocalNetworks --> 1) since version 375 is newer than 374 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.233 selfcontrol-cli[6056:5287322] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 376 is newer than 375 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.235 selfcontrol-cli[6056:5287322] Accepting propagated change (IncludeLinkedDomains --> 1) since version 377 is newer than 376 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.236 selfcontrol-cli[6056:5287322] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 378 is newer than 377 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.238 selfcontrol-cli[6056:5287322] Accepting propagated change (BlockSound --> 5) since version 379 is newer than 378 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.239 selfcontrol-cli[6056:5287322] Accepting propagated change (EnableErrorReporting --> 1) since version 380 is newer than 379 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.521 selfcontrol-cli[6056:5287322] Accepting propagated change (BlockIsRunning --> 1) since version 381 is newer than 380 and/or 2024-08-15 05:00:11 +0000 is newer than 2024-08-15 05:00:11 +0000
+2024-08-15 01:00:11.804 selfcontrol-cli[6056:5287328] INFO: Block successfully added.
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0816_0114------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-16 01:14:09.147 selfcontrol-cli[33280:330584] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0817_0102------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-17 01:02:01.180 selfcontrol-cli[36424:397426] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0818_0112------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-18 01:12:55.744 selfcontrol-cli[38211:505820] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0819_0103------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-19 01:03:56.555 selfcontrol-cli[39829:587221] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0820_0106------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-20 01:06:19.436 selfcontrol-cli[41431:655861] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0821_0102------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-21 01:02:14.199 selfcontrol-cli[43059:734519] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0822_0110------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-22 01:10:28.080 selfcontrol-cli[44631:812062] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0823_0110------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-23 01:10:30.424 selfcontrol-cli[46261:890834] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0824_0109------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-24 01:09:26.067 selfcontrol-cli[63099:1112790] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0825_0110------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-25 01:10:37.651 selfcontrol-cli[64754:1214477] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0826_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-26 01:00:06.065 selfcontrol-cli[88888:1678909] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0827_0104------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-27 01:04:19.128 selfcontrol-cli[3174:1971347] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0828_0106------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-28 01:06:47.460 selfcontrol-cli[6646:2067351] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0829_0113------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-29 01:13:38.144 selfcontrol-cli[8157:2138226] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0830_0106------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-30 01:06:39.897 selfcontrol-cli[11531:2242133] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0831_0114------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-08-31 01:14:49.515 selfcontrol-cli[14817:2340196] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0901_0102------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+Finding Process: 1
+2024-09-01 01:02:52.473 selfcontrol-cli[2582:23166] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0902_0114------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-09-02 01:14:55.249 selfcontrol-cli[8405:220944] ERROR: Block is already running
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0903_0101------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-09-03 01:01:58.161 selfcontrol-cli[14534:340048] created legacy block end date (null) from --blocklist
+2024-09-03 01:01:58.175 selfcontrol-cli[14534:340048] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-09-03 01:01:58.176 selfcontrol-cli[14534:340048] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-09-03 01:01:58.182 selfcontrol-cli[14534:340048] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0907_0056------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+Finding Process: 1
+Finding Process: 2
+Finding Process: 3
+2024-09-07 00:56:47.587 selfcontrol-cli[18409:542147] created legacy block end date (null) from --blocklist
+Finding Process: 4
+SelfControl Process IS Running
+Finding Window: 1
+Finding Window: 2
+Finding Window: 3
+Finding Window: 4
+Finding Window: 5
+Finding Window: 6
+Finding Window: 7
+Finding Window: 8
+Finding Window: 9
+Finding Window: 10
+Finding Window: 11
+Finding Window: 12
+Finding Window: 13
+Finding Window: 14
+Finding Window: 15
+Finding Window: 16
+Finding Window: 17
+Finding Window: 18
+Finding Window: 19
+Finding Window: 20
+Finding Window: 21
+Finding Window: 22
+Finding Window: 23
+Finding Window: 24
+Finding Window: 25
+Finding Window: 26
+Finding Window: 27
+Finding Window: 28
+Finding Window: 29
+Finding Window: 30
+Finding Window: 31
+Finding Window: 32
+Finding Window: 33
+Finding Window: 34
+Finding Window: 35
+Finding Window: 36
+Finding Window: 37
+Finding Window: 38
+Finding Window: 39
+Finding Window: 40
+Finding Window: 41
+Finding Window: 42
+Finding Window: 43
+Finding Window: 44
+Finding Window: 45
+Finding Window: 46
+Finding Window: 47
+Finding Window: 48
+Finding Window: 49
+Finding Window: 50
+Finding Window: 51
+Finding Window: 52
+Finding Window: 53
+Finding Window: 54
+Finding Window: 55
+Finding Window: 56
+Finding Window: 57
+Finding Window: 58
+Finding Window: 59
+Finding Window: 60
+Finding Window: 61
+Finding Window: 62
+Finding Window: 63
+Finding Window: 64
+Finding Window: 65
+Finding Window: 66
+Finding Window: 67
+Finding Window: 68
+Finding Window: 69
+Finding Window: 70
+Finding Window: 71
+Finding Window: 72
+Finding Window: 73
+Finding Window: 74
+Finding Window: 75
+Finding Window: 76
+Finding Window: 77
+Finding Window: 78
+Finding Window: 79
+Finding Window: 80
+Finding Window: 81
+Finding Window: 82
+Finding Window: 83
+Finding Window: 84
+Finding Window: 85
+Finding Window: 86
+Finding Window: 87
+Finding Window: 88
+Finding Window: 89
+Finding Window: 90
+Finding Window: 91
+Finding Window: 92
+Finding Window: 93
+Finding Window: 94
+Finding Window: 95
+Finding Window: 96
+Finding Window: 97
+Finding Window: 98
+Finding Window: 99
+Finding Window: 100
+Finding Window: 101
+Finding Window: 102
+Finding Window: 103
+Finding Window: 104
+Finding Window: 105
+Finding Window: 106
+Finding Window: 107
+Finding Window: 108
+Finding Window: 109
+Finding Window: 110
+Finding Window: 111
+Finding Window: 112
+Finding Window: 113
+Finding Window: 114
+Finding Window: 115
+Finding Window: 116
+Finding Window: 117
+Finding Window: 118
+Finding Window: 119
+Finding Window: 120
+Finding Window: 121
+Finding Window: 122
+Finding Window: 123
+Finding Window: 124
+Finding Window: 125
+Finding Window: 126
+Finding Window: 127
+Finding Window: 128
+Finding Window: 129
+Finding Window: 130
+Finding Window: 131
+Finding Window: 132
+Finding Window: 133
+Finding Window: 134
+Finding Window: 135
+Finding Window: 136
+Finding Window: 137
+Finding Window: 138
+Finding Window: 139
+Finding Window: 140
+Finding Window: 141
+Finding Window: 142
+Finding Window: 143
+Finding Window: 144
+Finding Window: 145
+Finding Window: 146
+Finding Window: 147
+Finding Window: 148
+Finding Window: 149
+Finding Window: 150
+Finding Window: 151
+Finding Window: 152
+Finding Window: 153
+Finding Window: 154
+Finding Window: 155
+Finding Window: 156
+Finding Window: 157
+Finding Window: 158
+Finding Window: 159
+Finding Window: 160
+Finding Window: 161
+Finding Window: 162
+Finding Window: 163
+Finding Window: 164
+Finding Window: 165
+Finding Window: 166
+Finding Window: 167
+Finding Window: 168
+Finding Window: 169
+Finding Window: 170
+Finding Window: 171
+Finding Window: 172
+Finding Window: 173
+Finding Window: 174
+Finding Window: 175
+Finding Window: 176
+Finding Window: 177
+Finding Window: 178
+Finding Window: 179
+Finding Window: 180
+Finding Window: 181
+Finding Window: 182
+Finding Window: 183
+Finding Window: 184
+Finding Window: 185
+Finding Window: 186
+Finding Window: 187
+Finding Window: 188
+Finding Window: 189
+Finding Window: 190
+Finding Window: 191
+Finding Window: 192
+Finding Window: 193
+Finding Window: 194
+Finding Window: 195
+Finding Window: 196
+Finding Window: 197
+Finding Window: 198
+Finding Window: 199
+Finding Window: 200
+Finding Window: 201
+Finding Window: 202
+Finding Window: 203
+Finding Window: 204
+Finding Window: 205
+Finding Window: 206
+Finding Window: 207
+Finding Window: 208
+Finding Window: 209
+Finding Window: 210
+Finding Window: 211
+Finding Window: 212
+Finding Window: 213
+Finding Window: 214
+Finding Window: 215
+Finding Window: 216
+Finding Window: 217
+Finding Window: 218
+Finding Window: 219
+Finding Window: 220
+Finding Window: 221
+Finding Window: 222
+Finding Window: 223
+Finding Window: 224
+Finding Window: 225
+Finding Window: 226
+Finding Window: 227
+Finding Window: 228
+Finding Window: 229
+Finding Window: 230
+Finding Window: 231
+Finding Window: 232
+Finding Window: 233
+Finding Window: 234
+Finding Window: 235
+Finding Window: 236
+Finding Window: 237
+Finding Window: 238
+Finding Window: 239
+Finding Window: 240
+Finding Window: 241
+Finding Window: 242
+Finding Window: 243
+Finding Window: 244
+Finding Window: 245
+Finding Window: 246
+Finding Window: 247
+Finding Window: 248
+Finding Window: 249
+Finding Window: 250
+Finding Window: 251
+Finding Window: 252
+Finding Window: 253
+Finding Window: 254
+Finding Window: 255
+Finding Window: 256
+Finding Window: 257
+Clicking OK button
+2024-09-07 00:57:08.728 selfcontrol-cli[18409:542147] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0907_0100------------------
+2024-09-07 01:00:06.176 selfcontrol-cli[19746:551409] created legacy block end date (null) from --blocklist
+--------START OF ADMINAPPROVAL_SCPT---------
+SelfControl Process IS Running
+Finding Window: 1
+Clicking OK button
+2024-09-07 01:00:08.539 selfcontrol-cli[19746:551409] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0917_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0918_0101------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0919_0101------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+Finding Process: 1
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0920_0103------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0921_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0922_0103------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0923_0107------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0924_0104------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0925_0115------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0926_0112------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0927_1941------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0928_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0929_0105------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+Finding Process: 1
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------0930_0109------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1001_0104------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1002_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1003_0102------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1004_0100------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1005_0113------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1006_0111------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1007_0112------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+.autocomplete__key-bindings:58: terminfo[kpp]: parameter not set
+
+
+-----------------1008_0108------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+Finding Process: 1
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required

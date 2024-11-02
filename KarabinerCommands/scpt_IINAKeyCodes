@@ -1,0 +1,19 @@
+#!/usr/bin/osascript
+
+set appName to "Iina"
+on is_running(appName)
+  tell application "System Events" to (name of processes) contains appName
+end is_running
+
+if is_running(appName) then
+  set previous_app to (path to frontmost application as text)
+  try
+    activate application appName
+    tell application "System Events"
+      click menu item 16 of menu 6 of menu bar 16
+    end tell
+  on error number -1728
+    log ("Error: " & -1728)
+  end try
+  activate application previous_app
+end if

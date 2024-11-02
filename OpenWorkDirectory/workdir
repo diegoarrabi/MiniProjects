@@ -1,0 +1,35 @@
+TEXT_FILE="/Users/diegoibarra/Developer/1_myProjects/MiniProjects/OpenWorkDirectory/WorkDirectory.txt"
+
+# CHECKS TEXT_FILE EXISTS
+if [[ ! -a $TEXT_FILE ]]; then
+    echo $TEXT_FILE
+    echo "File Not Found"
+    exit    
+fi
+
+
+# IF NUMBER OF ARGUMENTS IS GREATER THAN 1
+# THIS ALLOWS PATH TO HAVE SPACES IN THE NAME
+if [ ${#@} -gt 1 ]; then 
+    FULL_PATH=""
+    for i in $@; do
+        FULL_PATH+=" $i" 
+    done
+fi
+
+# IF ARGUMENT HAS NO SPACES
+if [ ${#@} -eq 1 ]; then
+    FULL_PATH="$@"
+fi
+
+# IF NO ARGUMENT, RETURN PATH SAVED IN TEXT_FILE
+if [ ${#@} -eq 0 ]; then
+    cat $TEXT_FILE
+    exit
+fi
+
+
+if [[ -d $FULL_PATH ]]; then # CHECKS THAT DIRECTORY EXISTS
+    rm -f "$TEXT_FILE"
+    echo $FULL_PATH >> "$TEXT_FILE"
+fi
