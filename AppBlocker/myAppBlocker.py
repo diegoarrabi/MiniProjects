@@ -64,7 +64,7 @@ def main():
 #       "Script Editor",
 #        "Visual Studio Code",
 #        "Terminal",
-        "Messages"
+#        "Messages"
 
     ]
 

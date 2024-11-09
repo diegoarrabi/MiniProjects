@@ -1,16 +1,11 @@
 #!/usr/bin/osascript
 
 tell application "System Events"
-  set window_pos to position of front window of (first application process whose frontmost is true)
-  set window_size to size of front window of (first application process whose frontmost is true)
-  set original_X to item 1 of window_pos
-  
-  tell application "Finder" to set screen_size to bounds of window of desktop
-  set screen_height to item 4 of screen_size
-  
-  set finalPositionX to original_X
-  set finalPositionY to (screen_height - (item 2 of window_size))
-  set finalPosition to {finalPositionX, finalPositionY}
-  
-  tell front window of (first application process whose frontmost is true) to set {position} to {finalPosition}
+	tell application "Finder" to set screen_size to bounds of window of desktop
+	set _WINDOW to front window of (first application process whose frontmost is true)
+	set window_pos to position of _WINDOW
+	set window_size to size of _WINDOW
+	set finalPositionY to ((item 4 of screen_size) - (item 2 of window_size))
+	set finalPosition to {item 1 of window_pos, finalPositionY}
+	tell _WINDOW to set {position} to {finalPosition}
 end tell
