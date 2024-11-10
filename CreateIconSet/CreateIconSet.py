@@ -19,8 +19,9 @@ def createIconSet():
     original_file_path = scpt_out.replace(":", '/')
     """
 
-    # TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/smallWIDTH.png'
-    TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/largeWIDTH.png'
+    
+    # TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/smallSQUARE.png'
+    TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/largeSQUARE.png'
     
     # dir_name = path.dirname(TEMPFILE) 
     iconSetName = 'Icon.iconset'
@@ -40,15 +41,12 @@ def setOriginalImage(img: str, dir: str):
     savePath = path.join(dir, iconName)
     with Image.open(img) as iconImg:
         _width, _height = iconImg.size
-        # _width, _height = (200, 100)
-        
 
         # IMAGE SQUARE
         if _width == _height:
             print("square")
-            with iconImg.resize((96, 128)) as newImg:
+            with iconImg.resize((iconSize, iconSize)) as newImg:
                 newImg.save(savePath)
-
 
         # IMAGE NOT SQUARE
         else:
@@ -65,25 +63,21 @@ def setOriginalImage(img: str, dir: str):
                     yShift = round((iconSize - newHeight)/2)
                     xShift = 0
 
-                    with iconImg.resize((iconSize, newHeight)) as iconImgResized:
-                        heightCalc = round((iconSize - newHeight)/2)
-                        squareBackground.paste(iconImgResized, (0, heightCalc))
-                        squareBackground.save(savePath)
-                    
-                
+
                 # HEIGHT IS LARGER THAN WIDTH
                 else: 
                     print("height larger")
+                    newHeight = iconSize
                     newWidth = round(_width/_height * iconSize)
+                    yShift = 0
+                    xShift = round((iconSize - newWidth)/2)
                     # with iconImg.resize((newHeight))
                     
-                    # HEIGHT LARGER THAN 512
-                    if _height >= iconSize:
-                        print("height larger than 512")
 
-                    # HEIGHT SMALLER THAN 512
-                    else:
-                        print("height smaller than 512")
+                # SAVE NEW FILE
+                with iconImg.resize((newWidth, newHeight)) as iconImgResized:
+                    squareBackground.paste(iconImgResized, (xShift, yShift))
+                    squareBackground.save(savePath)
 
 
             
