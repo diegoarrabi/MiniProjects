@@ -1,0 +1,139 @@
+#!/Users/diegoibarra/.config/pyenv/versions/3.13.0/envs/CreateIconSet/bin/python
+
+from os import path, makedirs, get_terminal_size
+from subprocess import run
+from sys import argv
+from time import sleep
+from PIL import Image
+
+
+def createIconSet(iconType: list) -> None:
+    # FILE SELECTION
+    scpt = 'set theDocument to (choose file with prompt "Please select a document to process:") as string'
+    scpt_out = run(['osascript', '-e', scpt], capture_output=True, text=True)
+    scpt_out = scpt_out.stdout.strip()
+    scpt_out = scpt_out.replace('Macintosh HD', '', 1)
+    imagePath = scpt_out.replace(":", '/')
+    
+    iconSetDir = path.join(path.dirname(imagePath), iconType[0])
+    
+    if not path.exists(iconSetDir):
+        makedirs(iconSetDir)
+    
+    baseImagePath = makeBaseImage(imagePath, iconSetDir, iconType[1], iconType[2])
+    
+    for _item in iconType[3]:
+        with Image.open(baseImagePath) as originalImage:
+            newImageName = _item[1]
+            newImagePath = path.join(iconSetDir, newImageName)
+            originalImage.resize((_item[0], _item[0])).save(newImagePath)
+
+    sleep(1)
+    run(['iconutil', '-c', 'icns', str(iconSetDir)])
+####################################################################
+#################################################################### 
+#################################################################### 
+
+def helpMessage() -> None:
+    message="""
+    \x1b[1mNAME\x1b[22m
+        \x1b[1mcreateIconSet\x1b[22m - Creates an Icon.icns for an App
+
+    \x1b[1mSYNOPSIS\x1b[22m
+        createIconSet [-sidebar]
+
+    \x1b[1mDESCRIPTION\x1b[22m
+        Prompts a File Dialog to select an image. 
+        Image does not need to be square or have a specific size. 
+        Creates an iconset with the image files used to make .icn file.
+        .icn file created using \x1b[1miconutil\x1b[22m.
+        Image file conforms to Icon-Type name and scale specified in Xcode.
+        Default icon type is AppIcon unless '-sidebar' is specified
+
+    \x1b[1mEXIT STATUS\x1b[22m
+        No output other than this message. Will exit upon exit of message
+
+"""
+    _, _lines = get_terminal_size()
+    print("\x1b[2J")
+    print(f"\x1b[{str(_lines - 1)}B")
+    print(message)
+    input("Enter 'q' to exit: ")
+    print("\x1b[2J")
+    exit(print("\x1b[2H"))
+####################################################################
+####################################################################
+
+
+def parseArguments(_arguments=[]) -> list[str, int, str, list[int, str]]:
+    appSizeList = [
+        [1024, "icon_512x512@2x.png"],
+        [512, "icon_256x256@2x.png"],
+        [256, "icon_256x256.png"],
+        [256, "icon_128x128@2x.png"],
+        [128, "icon_128x128.png"],
+        [64, "icon_32x32@2x.png"],
+        [32, "icon_32x32.png"],
+        [32, "icon_16x16@2x.png"],
+        [16, "icon_16x16.png"]
+    ]
+
+    sidebarSizeList = [
+        [256, "sidebar_32x32@2x.png"],
+        [64, "sidebar_18x18@2x.png"],
+        [32, "sidebar_18x18.png"],
+        [32, "sidebar_16x16@2x.png"],
+        [16, "sidebar_16x16.png"],
+    ]    
+    if not _arguments:
+        # APPICON
+        return ["AppIcon.iconset", 512, "icon_512x512.png", appSizeList]
+    elif _arguments[0] in ('-sidebar', 'sidebar'):
+        # SIDEBAR
+        return ["SidebarIcon.iconset", 128, "sidebar_32x32.png", sidebarSizeList]
+    helpMessage()
+####################################################################
+####################################################################
+
+
+def makeBaseImage(_img: str, _dir: str, _size: int, _iconsetName: str) -> str:
+    savePath = path.join(_dir, _iconsetName)
+    with Image.open(_img) as iconImg:
+        _width, _height = iconImg.size
+
+        # IMAGE SQUARE
+        if _width == _height:
+            with iconImg.resize((_size, _size)) as newImg:
+                newImg.save(savePath)
+
+        # IMAGE NOT SQUARE
+        else:
+            with Image.new('RGBA', (_size, _size), (255, 255, 255, 0)) as squareBackground:
+                largestSide = _width if _width > _height else _height
+
+                # WIDTH IS LARGER THAN HEIGHT
+                if largestSide == _width:
+                    newHeight = round(_height/_width * _size)
+                    newWidth = _size
+                    yShift = round((_size - newHeight)/2)
+                    xShift = 0
+
+                # HEIGHT IS LARGER THAN WIDTH
+                else:
+                    newHeight = _size
+                    newWidth = round(_width/_height * _size)
+                    yShift = 0
+                    xShift = round((_size - newWidth)/2)
+
+                # SAVE NEW FILE
+                with iconImg.resize((newWidth, newHeight)) as iconImgResized:
+                    squareBackground.paste(iconImgResized, (xShift, yShift))
+                    squareBackground.save(savePath)
+    return savePath
+####################################################################
+####################################################################
+
+
+if __name__ == "__main__":
+    whichIcon = parseArguments(argv[1:])
+    createIconSet(whichIcon)
