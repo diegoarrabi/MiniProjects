@@ -1,14 +1,12 @@
+#!/Users/diegoibarra/.config/pyenv/versions/3.13.0/envs/CreateIconSet/bin/python
+
 from os import path, makedirs
 from subprocess import run
+from time import sleep
 from PIL import Image
-
-
 
 def createIconSet():
 
-    
-    # UNCOMMENT AFTER TEST
-    """
     # FILE SELECTION
     ################
     scpt = 'set theDocument to (choose file with prompt "Please select a document to process:") as string'
@@ -16,27 +14,45 @@ def createIconSet():
 
     scpt_out = scpt_out.stdout.strip()
     scpt_out = scpt_out.replace('Macintosh HD', '', 1)
-    original_file_path = scpt_out.replace(":", '/')
-    """
+    imagePath = scpt_out.replace(":", '/')
+    
+    # TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/meowmeopw.png'
 
-    
-    # TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/smallSQUARE.png'
-    TEMPFILE='/Users/diegoibarra/Developer/1_myProjects/MiniProjects/CreateIconSet/TEST/largeSQUARE.png'
-    
-    # dir_name = path.dirname(TEMPFILE) 
+    imageSizeList = [
+        [1024, "icon_512x512@2x.png"],
+        [512, "icon_256x256@2x.png"],
+        [256, "icon_256x256.png"],
+        [256, "icon_128x128@2x.png"],
+        [128, "icon_128x128.png"],
+        [64, "icon_32x32@2x.png"],
+        [32, "icon_32x32.png"],
+        [32, "icon_16x16@2x.png"],
+        [16, "icon_16x16.png"]
+    ]
+
     iconSetName = 'Icon.iconset'
-    iconSetDir = path.join(path.dirname(TEMPFILE), iconSetName)
+    iconSetDir = path.join(path.dirname(imagePath), iconSetName)
+    
     if not path.exists(iconSetDir):
         makedirs(iconSetDir)
-    original_image = setOriginalImage(TEMPFILE, iconSetDir)
     
+    baseImagePath = makeBaseImage(imagePath, iconSetDir)
+    
+    for _item in imageSizeList:
+        with Image.open(baseImagePath) as originalImage:
+            newImageName = _item[1]
+            newImagePath = path.join(iconSetDir, newImageName)
+            originalImage.resize((_item[0], _item[0])).save(newImagePath)
+
+    sleep(1)
+    run(['iconutil', '-c', 'icns', str(iconSetDir)])
 
     # END END END END END END END END
     ####################################################################
     ########################################
 
 
-def setOriginalImage(img: str, dir: str):
+def makeBaseImage(img: str, dir: str) -> str:
     iconName = 'icon_512x512.png'
     savePath = path.join(dir, iconName)
     with Image.open(img) as iconImg:
@@ -44,52 +60,36 @@ def setOriginalImage(img: str, dir: str):
 
         # IMAGE SQUARE
         if _width == _height:
-            print("square")
             with iconImg.resize((iconSize, iconSize)) as newImg:
                 newImg.save(savePath)
 
         # IMAGE NOT SQUARE
         else:
-            print("not square")
             with Image.new('RGBA', (iconSize, iconSize), (255, 255, 255, 0)) as squareBackground:
                 largestSide = _width if _width > _height else _height
 
-                
                 # WIDTH IS LARGER THAN HEIGHT
-                if largestSide == _width: 
-                    print("width larger")
+                if largestSide == _width:
                     newHeight = round(_height/_width * iconSize)
                     newWidth = iconSize
                     yShift = round((iconSize - newHeight)/2)
                     xShift = 0
 
-
                 # HEIGHT IS LARGER THAN WIDTH
-                else: 
-                    print("height larger")
+                else:
                     newHeight = iconSize
                     newWidth = round(_width/_height * iconSize)
                     yShift = 0
                     xShift = round((iconSize - newWidth)/2)
-                    # with iconImg.resize((newHeight))
-                    
 
                 # SAVE NEW FILE
                 with iconImg.resize((newWidth, newHeight)) as iconImgResized:
                     squareBackground.paste(iconImgResized, (xShift, yShift))
                     squareBackground.save(savePath)
-
-
-            
-                
-        # newImg.save(img)
+    return savePath
 
 
 
-
-
-
-# print(basedir)
 
 if __name__ == "__main__":
     iconSize = 512
