@@ -49,7 +49,6 @@ def main():
 
     application_list = [
         "Telegram",
-        "Unity",
         "Arduino IDE",
         "OrcaSlicer",
 #       "Pixelmator Pro",
