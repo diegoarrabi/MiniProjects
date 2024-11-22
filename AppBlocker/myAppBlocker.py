@@ -50,7 +50,7 @@ def main():
     application_list = [
         "Telegram",
         "Arduino IDE",
-        "OrcaSlicer",
+        # "OrcaSlicer",
 #       "Pixelmator Pro",
         "Pixelorama",
         "Playgrounds",
