@@ -1,8 +1,0 @@
-#!/usr/bin/osascript
-
-tell application "System Events"
-	set _window to front window of (first application process whose frontmost is true)
-	set window_pos to position of _window
-	set finalPosition to {item 1 of window_pos, 0}
-	tell _window to set {position} to {finalPosition}
-end tell
