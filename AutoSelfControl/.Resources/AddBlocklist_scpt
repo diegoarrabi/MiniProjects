@@ -1,0 +1,40 @@
+#!/usr/bin/osascript
+
+on run (URL_ITEM)
+	tell application "SelfControl" to activate
+	
+	if my SelfControlOpen() then
+		tell application "System Events" to tell process "SelfControl"
+			click button "Edit Blocklist" of window "SelfControl"
+			if my BlocklistOpen() then
+				click button 2 of window "Domain Blocklist"
+				keystroke URL_ITEM as string
+				key code 36
+			end if
+		end tell
+	end if
+	tell application "SelfControl" to quit
+end run
+
+on SelfControlOpen()
+	set counter to 0
+	tell application "System Events" to tell process "SelfControl"
+		repeat until ((name of windows) contains "SelfControl")
+			set counter to (counter + 1)
+			if counter is greater than 100 then error number -128
+		end repeat
+		return true
+	end tell
+end SelfControlOpen
+
+on BlocklistOpen()
+	set counter to 0
+	tell application "System Events" to tell process "SelfControl"
+		repeat until ((name of windows) contains "Domain Blocklist")
+			set counter to (counter + 1)
+			if counter is greater than 100 then error number -128
+		end repeat
+		return true
+	end tell
+end BlocklistOpen
+

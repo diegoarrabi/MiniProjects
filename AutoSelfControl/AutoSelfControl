@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-current_time="$(/Users/diegoibarra/Developer/1_myProjects/Executables/my_datetime)"
+current_time="$(/Users/diegoibarra/Developer/1_myProjects/MiniTasks/Datetimed/datetimed)"
 
 >&2 echo "\n\n-----------------"$current_time"------------------"
 

@@ -9,11 +9,9 @@
 		<key>StartCalendarInterval</key>
 		<dict>
 			<key>Hour</key>
-			<integer>07</integer>
+			<integer>23</integer>
 			<key>Minute</key>
 			<integer>00</integer>
 		</dict>
-		<key>StandardErrorPath</key>
-		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/.Resources/cache/diegoibarra.AutoSelfControl.out</string>
 	</dict>
 </plist>
