@@ -48,23 +48,18 @@ def main():
     # file_contents = openFile(file_name)
 
     application_list = [
-        "Telegram",
+#        "Telegram",
         "Arduino IDE",
-        # "OrcaSlicer",
-#       "Pixelmator Pro",
+#        "Pixelmator Pro",
         "Pixelorama",
         "Playgrounds",
-        # "PyCharm Professional Edition",
-        # "Rider",
-#       "Xcode",
+        "Xcode",
         "Shortcuts",
-#       "Automator",
-#       "CotEditor",
-#       "Script Editor",
+        "Automator",
+#        "Messages",
+        "Script Editor",
 #        "Visual Studio Code",
-#        "Terminal",
-#        "Messages"
-
+        # "Terminal",
     ]
 
     for title in application_list:

@@ -6,14 +6,16 @@
 		<string>diegoibarra.AutoSelfControl</string>
 		<key>Program</key>
 		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/AutoSelfControl</string>
+		<key>StandardErrorPath</key>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.out</string>
+		<key>StandardOutputPath</key>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.outt</string>
 		<key>StartCalendarInterval</key>
 		<dict>
 			<key>Hour</key>
-			<integer>07</integer>
+			<integer>6</integer>
 			<key>Minute</key>
-			<integer>00</integer>
+			<integer>0</integer>
 		</dict>
-		<key>StandardErrorPath</key>
-		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/.Resources/cache/diegoibarra.AutoSelfControl.out</string>
 	</dict>
 </plist>

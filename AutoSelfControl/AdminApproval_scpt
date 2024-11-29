@@ -2,15 +2,13 @@
 
 on run ()
 	
-	log "--------START OF ADMINAPPROVAL_SCPT---------"	
 	set process_name to "SecurityAgent"
 	set window_counter to 0
 	set process_counter to 0
 
 	repeat until isRunning(process_name) is true
 		set process_counter to (process_counter + 1)
-		log "Finding Process: " & (process_counter as string)
-		if process_counter is greater than 300
+		if process_counter is greater than 600
 			log "SelfControl Process NOT found"
 			error number -128
 		end if
@@ -22,7 +20,6 @@ on run ()
 	tell application "System Events" to tell process "SecurityAgent"
 		repeat until exists text field 1 of window 1
 			set window_counter to (window_counter + 1)
-			log "Finding Window: " & (window_counter as string)
 			if window_counter is greater than 300 
 				log "SecurityAgent Window NOT found"
 				error number -128
@@ -33,8 +30,7 @@ on run ()
 		set value of text field 1 of window 1 to "Diego Ibarra"
 		set value of text field 2 of window 1 to "hahahey"
 		
-		log "Clicking OK button"
-		delay 5
+		delay 3
 		click button "OK" of window 1
 	end tell
 end run
