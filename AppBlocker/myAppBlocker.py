@@ -48,16 +48,16 @@ def main():
     # file_contents = openFile(file_name)
 
     application_list = [
-#        "Telegram",
+#       "Telegram",
         "Arduino IDE",
 #        "Pixelmator Pro",
         "Pixelorama",
-        "Playgrounds",
-        "Xcode",
+        "Swift Playground",
+#        "Xcode",
         "Shortcuts",
         "Automator",
-#        "Messages",
-        "Script Editor",
+        "Messages",
+#        "Script Editor",
 #        "Visual Studio Code",
         # "Terminal",
     ]

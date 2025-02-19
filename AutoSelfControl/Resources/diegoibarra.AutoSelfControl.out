@@ -1,0 +1,599 @@
+MAIN-----------------_11m29d_05h07m33s------------------
+--------START OF ADMINAPPROVAL_SCPT---------
+2024-11-29 05:07:34.051 selfcontrol-cli[84679:3270169] created legacy block end date (null) from --blocklist
+Finding Process: 1
+2024-11-29 05:07:34.088 selfcontrol-cli[84679:3270169] Daemon installed successfully!
+2024-11-29 05:07:34.088 selfcontrol-cli[84679:3270169] Refreshed connection and ready to start block!
+2024-11-29 05:07:34.088 selfcontrol-cli[84679:3270169] Connecting to helper tool, daemon connection is (null)
+2024-11-29 05:07:34.088 selfcontrol-cli[84679:3270169] Started helper connection!
+Finding Process: 2
+Finding Process: 3
+Finding Process: 4
+Finding Process: 5
+Finding Process: 6
+Finding Process: 7
+Finding Process: 8
+Finding Process: 9
+Finding Process: 10
+Finding Process: 11
+Finding Process: 12
+Finding Process: 13
+Finding Process: 14
+Finding Process: 15
+Finding Process: 16
+Finding Process: 17
+2024-11-29 05:07:35.198 selfcontrol-cli[84679:3270169] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to"
+)) since version 446 is newer than 445 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:06:33 +0000
+2024-11-29 05:07:35.199 selfcontrol-cli[84679:3270169] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 447 is newer than 446 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.200 selfcontrol-cli[84679:3270169] Accepting propagated change (BlockEndDate --> 2024-11-29 10:08:34 +0000) since version 448 is newer than 447 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.201 selfcontrol-cli[84679:3270169] Accepting propagated change (ClearCaches --> 1) since version 449 is newer than 448 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.201 selfcontrol-cli[84679:3270169] Accepting propagated change (AllowLocalNetworks --> 1) since version 450 is newer than 449 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.202 selfcontrol-cli[84679:3270169] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 451 is newer than 450 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.203 selfcontrol-cli[84679:3270169] Accepting propagated change (IncludeLinkedDomains --> 1) since version 452 is newer than 451 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.204 selfcontrol-cli[84679:3270169] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 453 is newer than 452 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.205 selfcontrol-cli[84679:3270169] Accepting propagated change (BlockSound --> 5) since version 454 is newer than 453 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+2024-11-29 05:07:35.205 selfcontrol-cli[84679:3270169] Accepting propagated change (EnableErrorReporting --> 1) since version 455 is newer than 454 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+Finding Process: 18
+Finding Process: 19
+Finding Process: 20
+2024-11-29 05:07:35.423 selfcontrol-cli[84679:3270169] Accepting propagated change (BlockIsRunning --> 1) since version 456 is newer than 455 and/or 2024-11-29 10:07:35 +0000 is newer than 2024-11-29 10:07:35 +0000
+Finding Process: 21
+2024-11-29 05:07:35.503 selfcontrol-cli[84679:3270170] INFO: Block successfully added.
+
+
+-----------------_11m29d_06h00m02s------------------
+2024-11-29 06:00:02.552 selfcontrol-cli[91910:3340582] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-11-29 06:00:06.356 selfcontrol-cli[91910:3340582] Daemon installed successfully!
+2024-11-29 06:00:06.356 selfcontrol-cli[91910:3340582] Refreshed connection and ready to start block!
+2024-11-29 06:00:06.356 selfcontrol-cli[91910:3340582] Connecting to helper tool, daemon connection is (null)
+2024-11-29 06:00:06.356 selfcontrol-cli[91910:3340582] Started helper connection!
+2024-11-29 06:00:06.987 selfcontrol-cli[91910:3340582] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 461 is newer than 460 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 10:08:34 +0000
+2024-11-29 06:00:06.988 selfcontrol-cli[91910:3340582] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 462 is newer than 461 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.990 selfcontrol-cli[91910:3340582] Accepting propagated change (BlockEndDate --> 2024-11-30 09:00:02 +0000) since version 463 is newer than 462 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.990 selfcontrol-cli[91910:3340582] Accepting propagated change (ClearCaches --> 1) since version 464 is newer than 463 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.991 selfcontrol-cli[91910:3340582] Accepting propagated change (AllowLocalNetworks --> 1) since version 465 is newer than 464 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.992 selfcontrol-cli[91910:3340582] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 466 is newer than 465 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.993 selfcontrol-cli[91910:3340582] Accepting propagated change (IncludeLinkedDomains --> 1) since version 467 is newer than 466 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.994 selfcontrol-cli[91910:3340582] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 468 is newer than 467 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.994 selfcontrol-cli[91910:3340582] Accepting propagated change (BlockSound --> 5) since version 469 is newer than 468 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:06.995 selfcontrol-cli[91910:3340582] Accepting propagated change (EnableErrorReporting --> 1) since version 470 is newer than 469 and/or 2024-11-29 11:00:06 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:07.223 selfcontrol-cli[91910:3340582] Accepting propagated change (BlockIsRunning --> 1) since version 471 is newer than 470 and/or 2024-11-29 11:00:07 +0000 is newer than 2024-11-29 11:00:06 +0000
+2024-11-29 06:00:07.313 selfcontrol-cli[91910:3340583] INFO: Block successfully added.
+
+
+-----------------_11m30d_06h08m56s------------------
+2024-11-30 06:08:56.831 selfcontrol-cli[91075:4682695] created legacy block end date (null) from --blocklist
+2024-11-30 06:08:56.846 selfcontrol-cli[91075:4682695] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-11-30 06:08:56.846 selfcontrol-cli[91075:4682695] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-11-30 06:08:56.853 selfcontrol-cli[91075:4682695] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m01d_06h05m41s------------------
+2024-12-01 06:05:41.769 selfcontrol-cli[86269:5875973] created legacy block end date (null) from --blocklist
+2024-12-01 06:05:41.782 selfcontrol-cli[86269:5875973] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-01 06:05:41.783 selfcontrol-cli[86269:5875973] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-01 06:05:41.790 selfcontrol-cli[86269:5875973] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m02d_06h10m24s------------------
+2024-12-02 06:10:24.485 selfcontrol-cli[88206:5927406] created legacy block end date (null) from --blocklist
+2024-12-02 06:10:24.497 selfcontrol-cli[88206:5927406] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-02 06:10:24.498 selfcontrol-cli[88206:5927406] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-02 06:10:24.503 selfcontrol-cli[88206:5927406] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m03d_06h00m05s------------------
+2024-12-03 06:00:05.449 selfcontrol-cli[86305:1106652] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-03 06:00:09.334 selfcontrol-cli[86305:1106652] Daemon installed successfully!
+2024-12-03 06:00:09.334 selfcontrol-cli[86305:1106652] Refreshed connection and ready to start block!
+2024-12-03 06:00:09.334 selfcontrol-cli[86305:1106652] Connecting to helper tool, daemon connection is (null)
+2024-12-03 06:00:09.334 selfcontrol-cli[86305:1106652] Started helper connection!
+2024-12-03 06:00:10.210 selfcontrol-cli[86305:1106652] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 476 is newer than 475 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-11-30 09:13:43 +0000
+2024-12-03 06:00:10.211 selfcontrol-cli[86305:1106652] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 477 is newer than 476 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.212 selfcontrol-cli[86305:1106652] Accepting propagated change (BlockEndDate --> 2024-12-04 09:00:05 +0000) since version 478 is newer than 477 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.212 selfcontrol-cli[86305:1106652] Accepting propagated change (ClearCaches --> 1) since version 479 is newer than 478 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.212 selfcontrol-cli[86305:1106652] Accepting propagated change (AllowLocalNetworks --> 1) since version 480 is newer than 479 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.213 selfcontrol-cli[86305:1106652] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 481 is newer than 480 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.214 selfcontrol-cli[86305:1106652] Accepting propagated change (IncludeLinkedDomains --> 1) since version 482 is newer than 481 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.215 selfcontrol-cli[86305:1106652] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 483 is newer than 482 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.216 selfcontrol-cli[86305:1106652] Accepting propagated change (BlockSound --> 5) since version 484 is newer than 483 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.216 selfcontrol-cli[86305:1106652] Accepting propagated change (EnableErrorReporting --> 1) since version 485 is newer than 484 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.614 selfcontrol-cli[86305:1106657] Syncing settings due to propagated changes
+2024-12-03 06:00:10.614 selfcontrol-cli[86305:1106657]  --> Writing settings to disk (haven't been written since 2024-12-03 11:00:05 +0000)
+2024-12-03 06:00:10.825 selfcontrol-cli[86305:1106652] Accepting propagated change (BlockIsRunning --> 1) since version 486 is newer than 485 and/or 2024-12-03 11:00:10 +0000 is newer than 2024-12-03 11:00:10 +0000
+2024-12-03 06:00:10.929 selfcontrol-cli[86305:1106657] INFO: Block successfully added.
+
+
+-----------------_12m04d_06h00m05s------------------
+2024-12-04 06:00:06.865 selfcontrol-cli[97784:1706932] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-04 06:00:10.075 selfcontrol-cli[97784:1706932] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+
+
+-----------------_12m05d_06h05m10s------------------
+2024-12-05 06:05:10.762 selfcontrol-cli[53258:2413148] created legacy block end date (null) from --blocklist
+2024-12-05 06:05:10.775 selfcontrol-cli[53258:2413148] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-05 06:05:10.775 selfcontrol-cli[53258:2413148] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-05 06:05:10.781 selfcontrol-cli[53258:2413148] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m06d_06h00m00s------------------
+2024-12-06 06:00:00.284 selfcontrol-cli[65676:4351642] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-06 06:00:04.084 selfcontrol-cli[65676:4351642] Daemon installed successfully!
+2024-12-06 06:00:04.084 selfcontrol-cli[65676:4351642] Refreshed connection and ready to start block!
+2024-12-06 06:00:04.084 selfcontrol-cli[65676:4351642] Connecting to helper tool, daemon connection is (null)
+2024-12-06 06:00:04.084 selfcontrol-cli[65676:4351642] Started helper connection!
+2024-12-06 06:00:04.863 selfcontrol-cli[65676:4351642] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 491 is newer than 490 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-04 09:19:07 +0000
+2024-12-06 06:00:04.864 selfcontrol-cli[65676:4351642] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 492 is newer than 491 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.864 selfcontrol-cli[65676:4351642] Accepting propagated change (BlockEndDate --> 2024-12-07 09:00:00 +0000) since version 493 is newer than 492 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.865 selfcontrol-cli[65676:4351642] Accepting propagated change (ClearCaches --> 1) since version 494 is newer than 493 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.866 selfcontrol-cli[65676:4351642] Accepting propagated change (AllowLocalNetworks --> 1) since version 495 is newer than 494 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.866 selfcontrol-cli[65676:4351642] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 496 is newer than 495 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.867 selfcontrol-cli[65676:4351642] Accepting propagated change (IncludeLinkedDomains --> 1) since version 497 is newer than 496 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.868 selfcontrol-cli[65676:4351642] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 498 is newer than 497 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.869 selfcontrol-cli[65676:4351642] Accepting propagated change (BlockSound --> 5) since version 499 is newer than 498 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:04.869 selfcontrol-cli[65676:4351642] Accepting propagated change (EnableErrorReporting --> 1) since version 500 is newer than 499 and/or 2024-12-06 11:00:04 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:05.095 selfcontrol-cli[65676:4351642] Accepting propagated change (BlockIsRunning --> 1) since version 501 is newer than 500 and/or 2024-12-06 11:00:05 +0000 is newer than 2024-12-06 11:00:04 +0000
+2024-12-06 06:00:05.494 selfcontrol-cli[65676:4351669] Syncing settings due to propagated changes
+2024-12-06 06:00:05.494 selfcontrol-cli[65676:4351669]  --> Writing settings to disk (haven't been written since 2024-12-06 11:00:00 +0000)
+2024-12-06 06:00:06.451 selfcontrol-cli[65676:4351669] INFO: Block successfully added.
+
+
+-----------------_12m07d_06h15m03s------------------
+2024-12-07 06:15:03.681 selfcontrol-cli[76786:4550323] created legacy block end date (null) from --blocklist
+2024-12-07 06:15:03.699 selfcontrol-cli[76786:4550323] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-07 06:15:03.700 selfcontrol-cli[76786:4550323] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-07 06:15:03.707 selfcontrol-cli[76786:4550323] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m08d_06h00m05s------------------
+2024-12-08 06:00:05.317 selfcontrol-cli[50257:5553756] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-08 06:00:09.071 selfcontrol-cli[50257:5553756] Daemon installed successfully!
+2024-12-08 06:00:09.071 selfcontrol-cli[50257:5553756] Refreshed connection and ready to start block!
+2024-12-08 06:00:09.071 selfcontrol-cli[50257:5553756] Connecting to helper tool, daemon connection is (null)
+2024-12-08 06:00:09.071 selfcontrol-cli[50257:5553756] Started helper connection!
+2024-12-08 06:00:09.843 selfcontrol-cli[50257:5553756] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 506 is newer than 505 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-07 09:11:03 +0000
+2024-12-08 06:00:09.844 selfcontrol-cli[50257:5553756] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 507 is newer than 506 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.845 selfcontrol-cli[50257:5553756] Accepting propagated change (BlockEndDate --> 2024-12-09 09:00:05 +0000) since version 508 is newer than 507 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.846 selfcontrol-cli[50257:5553756] Accepting propagated change (ClearCaches --> 1) since version 509 is newer than 508 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.846 selfcontrol-cli[50257:5553756] Accepting propagated change (AllowLocalNetworks --> 1) since version 510 is newer than 509 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.847 selfcontrol-cli[50257:5553756] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 511 is newer than 510 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.848 selfcontrol-cli[50257:5553756] Accepting propagated change (IncludeLinkedDomains --> 1) since version 512 is newer than 511 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.849 selfcontrol-cli[50257:5553756] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 513 is newer than 512 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.849 selfcontrol-cli[50257:5553756] Accepting propagated change (BlockSound --> 5) since version 514 is newer than 513 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:09.850 selfcontrol-cli[50257:5553756] Accepting propagated change (EnableErrorReporting --> 1) since version 515 is newer than 514 and/or 2024-12-08 11:00:09 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:10.185 selfcontrol-cli[50257:5553780] Syncing settings due to propagated changes
+2024-12-08 06:00:10.185 selfcontrol-cli[50257:5553780]  --> Writing settings to disk (haven't been written since 2024-12-08 11:00:05 +0000)
+2024-12-08 06:00:11.005 selfcontrol-cli[50257:5553756] Accepting propagated change (BlockIsRunning --> 1) since version 516 is newer than 515 and/or 2024-12-08 11:00:11 +0000 is newer than 2024-12-08 11:00:09 +0000
+2024-12-08 06:00:11.090 selfcontrol-cli[50257:5553776] INFO: Block successfully added.
+
+
+-----------------_12m09d_06h00m05s------------------
+2024-12-09 06:00:05.284 selfcontrol-cli[67498:7662439] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-09 06:00:07.466 selfcontrol-cli[67498:7662439] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+
+
+-----------------_12m10d_06h01m35s------------------
+2024-12-10 06:01:36.180 selfcontrol-cli[47493:8571260] created legacy block end date (null) from --blocklist
+2024-12-10 06:01:36.194 selfcontrol-cli[47493:8571260] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-10 06:01:36.194 selfcontrol-cli[47493:8571260] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-10 06:01:36.201 selfcontrol-cli[47493:8571260] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m11d_06h00m02s------------------
+2024-12-11 06:00:05.189 selfcontrol-cli[27387:351624] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-11 06:00:07.057 selfcontrol-cli[27387:351624] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+
+
+-----------------_12m12d_06h11m44s------------------
+2024-12-12 06:11:45.175 selfcontrol-cli[12478:1581513] created legacy block end date (null) from --blocklist
+2024-12-12 06:11:45.188 selfcontrol-cli[12478:1581513] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-12 06:11:45.189 selfcontrol-cli[12478:1581513] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-12 06:11:45.195 selfcontrol-cli[12478:1581513] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m13d_06h06m49s------------------
+2024-12-13 06:06:49.831 selfcontrol-cli[15145:1637681] created legacy block end date (null) from --blocklist
+2024-12-13 06:06:49.844 selfcontrol-cli[15145:1637681] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-13 06:06:49.845 selfcontrol-cli[15145:1637681] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-13 06:06:49.850 selfcontrol-cli[15145:1637681] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m14d_06h01m17s------------------
+2024-12-14 06:01:20.820 selfcontrol-cli[69232:2511977] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+SecurityAgent Window NOT found
+AdminApproval_scpt:616:633: execution error: User canceled. (-128)
+2024-12-14 13:24:49.934 selfcontrol-cli[69232:2511977] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+
+
+-----------------_12m15d_06h00m05s------------------
+2024-12-15 06:00:05.327 selfcontrol-cli[62885:3787467] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-15 06:00:09.200 selfcontrol-cli[62885:3787467] Daemon installed successfully!
+2024-12-15 06:00:09.200 selfcontrol-cli[62885:3787467] Refreshed connection and ready to start block!
+2024-12-15 06:00:09.200 selfcontrol-cli[62885:3787467] Connecting to helper tool, daemon connection is (null)
+2024-12-15 06:00:09.200 selfcontrol-cli[62885:3787467] Started helper connection!
+2024-12-15 06:00:10.151 selfcontrol-cli[62885:3787467] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 521 is newer than 520 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-09 09:00:05 +0000
+2024-12-15 06:00:10.151 selfcontrol-cli[62885:3787467] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 522 is newer than 521 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.152 selfcontrol-cli[62885:3787467] Accepting propagated change (BlockEndDate --> 2024-12-16 09:00:05 +0000) since version 523 is newer than 522 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.153 selfcontrol-cli[62885:3787467] Accepting propagated change (ClearCaches --> 1) since version 524 is newer than 523 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.153 selfcontrol-cli[62885:3787467] Accepting propagated change (AllowLocalNetworks --> 1) since version 525 is newer than 524 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.154 selfcontrol-cli[62885:3787467] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 526 is newer than 525 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.155 selfcontrol-cli[62885:3787467] Accepting propagated change (IncludeLinkedDomains --> 1) since version 527 is newer than 526 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.156 selfcontrol-cli[62885:3787467] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 528 is newer than 527 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.157 selfcontrol-cli[62885:3787467] Accepting propagated change (BlockSound --> 5) since version 529 is newer than 528 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.157 selfcontrol-cli[62885:3787467] Accepting propagated change (EnableErrorReporting --> 1) since version 530 is newer than 529 and/or 2024-12-15 11:00:10 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:10.556 selfcontrol-cli[62885:3787491] Syncing settings due to propagated changes
+2024-12-15 06:00:10.557 selfcontrol-cli[62885:3787491]  --> Writing settings to disk (haven't been written since 2024-12-15 11:00:05 +0000)
+2024-12-15 06:00:11.511 selfcontrol-cli[62885:3787467] Accepting propagated change (BlockIsRunning --> 1) since version 531 is newer than 530 and/or 2024-12-15 11:00:11 +0000 is newer than 2024-12-15 11:00:10 +0000
+2024-12-15 06:00:11.730 selfcontrol-cli[62885:3787486] INFO: Block successfully added.
+
+
+-----------------_12m16d_06h00m02s------------------
+2024-12-16 06:00:02.345 selfcontrol-cli[5597:4531718] created legacy block end date (null) from --blocklist
+2024-12-16 06:00:02.359 selfcontrol-cli[5597:4531718] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-16 06:00:02.360 selfcontrol-cli[5597:4531718] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-16 06:00:02.367 selfcontrol-cli[5597:4531718] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m17d_06h00m00s------------------
+2024-12-17 06:00:00.266 selfcontrol-cli[31555:6210159] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-17 06:00:04.101 selfcontrol-cli[31555:6210159] Daemon installed successfully!
+2024-12-17 06:00:04.101 selfcontrol-cli[31555:6210159] Refreshed connection and ready to start block!
+2024-12-17 06:00:04.101 selfcontrol-cli[31555:6210159] Connecting to helper tool, daemon connection is (null)
+2024-12-17 06:00:04.101 selfcontrol-cli[31555:6210159] Started helper connection!
+2024-12-17 06:00:04.995 selfcontrol-cli[31555:6210159] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 536 is newer than 535 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-16 09:00:05 +0000
+2024-12-17 06:00:04.995 selfcontrol-cli[31555:6210159] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 537 is newer than 536 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:04.996 selfcontrol-cli[31555:6210159] Accepting propagated change (BlockEndDate --> 2024-12-18 09:00:00 +0000) since version 538 is newer than 537 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:04.997 selfcontrol-cli[31555:6210159] Accepting propagated change (ClearCaches --> 1) since version 539 is newer than 538 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:04.998 selfcontrol-cli[31555:6210159] Accepting propagated change (AllowLocalNetworks --> 1) since version 540 is newer than 539 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:04.998 selfcontrol-cli[31555:6210159] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 541 is newer than 540 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:04.999 selfcontrol-cli[31555:6210159] Accepting propagated change (IncludeLinkedDomains --> 1) since version 542 is newer than 541 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:04 +0000
+2024-12-17 06:00:05.000 selfcontrol-cli[31555:6210159] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 543 is newer than 542 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:05 +0000
+2024-12-17 06:00:05.000 selfcontrol-cli[31555:6210159] Accepting propagated change (BlockSound --> 5) since version 544 is newer than 543 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:05 +0000
+2024-12-17 06:00:05.001 selfcontrol-cli[31555:6210159] Accepting propagated change (EnableErrorReporting --> 1) since version 545 is newer than 544 and/or 2024-12-17 11:00:04 +0000 is newer than 2024-12-17 11:00:05 +0000
+2024-12-17 06:00:05.396 selfcontrol-cli[31555:6210183] Syncing settings due to propagated changes
+2024-12-17 06:00:05.396 selfcontrol-cli[31555:6210183]  --> Writing settings to disk (haven't been written since 2024-12-17 11:00:00 +0000)
+2024-12-17 06:00:05.440 selfcontrol-cli[31555:6210159] Accepting propagated change (BlockIsRunning --> 1) since version 546 is newer than 545 and/or 2024-12-17 11:00:05 +0000 is newer than 2024-12-17 11:00:05 +0000
+2024-12-17 06:00:05.530 selfcontrol-cli[31555:6210171] INFO: Block successfully added.
+
+
+-----------------_12m18d_06h04m38s------------------
+2024-12-18 06:04:38.573 selfcontrol-cli[22873:7338638] created legacy block end date (null) from --blocklist
+2024-12-18 06:04:38.590 selfcontrol-cli[22873:7338638] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2024-12-18 06:04:38.590 selfcontrol-cli[22873:7338638] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2024-12-18 06:04:38.597 selfcontrol-cli[22873:7338638] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_12m19d_06h00m05s------------------
+2024-12-19 06:00:05.403 selfcontrol-cli[3627:8473502] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2024-12-19 06:00:08.280 selfcontrol-cli[3627:8473502] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}
+
+
+-----------------_01m06d_06h00m05s------------------
+2025-01-06 06:00:05.297 selfcontrol-cli[80011:856035] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-01-06 06:00:09.112 selfcontrol-cli[80011:856035] Daemon installed successfully!
+2025-01-06 06:00:09.112 selfcontrol-cli[80011:856035] Refreshed connection and ready to start block!
+2025-01-06 06:00:09.112 selfcontrol-cli[80011:856035] Connecting to helper tool, daemon connection is (null)
+2025-01-06 06:00:09.112 selfcontrol-cli[80011:856035] Started helper connection!
+2025-01-06 06:00:10.003 selfcontrol-cli[80011:856035] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 551 is newer than 550 and/or 2025-01-06 11:00:10 +0000 is newer than 2024-12-18 09:02:38 +0000
+2025-01-06 06:00:10.004 selfcontrol-cli[80011:856035] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 552 is newer than 551 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.005 selfcontrol-cli[80011:856035] Accepting propagated change (BlockEndDate --> 2025-01-07 09:00:05 +0000) since version 553 is newer than 552 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.007 selfcontrol-cli[80011:856035] Accepting propagated change (ClearCaches --> 1) since version 554 is newer than 553 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.008 selfcontrol-cli[80011:856035] Accepting propagated change (AllowLocalNetworks --> 1) since version 555 is newer than 554 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.008 selfcontrol-cli[80011:856035] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 556 is newer than 555 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.009 selfcontrol-cli[80011:856035] Accepting propagated change (IncludeLinkedDomains --> 1) since version 557 is newer than 556 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.009 selfcontrol-cli[80011:856035] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 558 is newer than 557 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.010 selfcontrol-cli[80011:856035] Accepting propagated change (BlockSound --> 5) since version 559 is newer than 558 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.010 selfcontrol-cli[80011:856035] Accepting propagated change (EnableErrorReporting --> 1) since version 560 is newer than 559 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.356 selfcontrol-cli[80011:856035] Accepting propagated change (BlockIsRunning --> 1) since version 561 is newer than 560 and/or 2025-01-06 11:00:10 +0000 is newer than 2025-01-06 11:00:10 +0000
+2025-01-06 06:00:10.704 selfcontrol-cli[80011:856040] Syncing settings due to propagated changes
+2025-01-06 06:00:10.704 selfcontrol-cli[80011:856040]  --> Writing settings to disk (haven't been written since 2025-01-06 11:00:05 +0000)
+2025-01-06 06:00:13.988 selfcontrol-cli[80011:856040] INFO: Block successfully added.
+
+
+-----------------_01m07d_06h00m41s------------------
+2025-01-07 06:00:42.075 selfcontrol-cli[72069:2174099] created legacy block end date (null) from --blocklist
+2025-01-07 06:00:42.092 selfcontrol-cli[72069:2174099] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2025-01-07 06:00:42.092 selfcontrol-cli[72069:2174099] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2025-01-07 06:00:42.098 selfcontrol-cli[72069:2174099] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_01m08d_06h00m05s------------------
+2025-01-08 06:00:05.321 selfcontrol-cli[61142:3284957] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-01-08 06:00:09.068 selfcontrol-cli[61142:3284957] Daemon installed successfully!
+2025-01-08 06:00:09.068 selfcontrol-cli[61142:3284957] Refreshed connection and ready to start block!
+2025-01-08 06:00:09.068 selfcontrol-cli[61142:3284957] Connecting to helper tool, daemon connection is (null)
+2025-01-08 06:00:09.068 selfcontrol-cli[61142:3284957] Started helper connection!
+2025-01-08 06:00:09.909 selfcontrol-cli[61142:3284957] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 566 is newer than 565 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-07 09:15:11 +0000
+2025-01-08 06:00:09.910 selfcontrol-cli[61142:3284957] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 567 is newer than 566 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.910 selfcontrol-cli[61142:3284957] Accepting propagated change (BlockEndDate --> 2025-01-09 09:00:05 +0000) since version 568 is newer than 567 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.911 selfcontrol-cli[61142:3284957] Accepting propagated change (ClearCaches --> 1) since version 569 is newer than 568 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.912 selfcontrol-cli[61142:3284957] Accepting propagated change (AllowLocalNetworks --> 1) since version 570 is newer than 569 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.912 selfcontrol-cli[61142:3284957] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 571 is newer than 570 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.914 selfcontrol-cli[61142:3284957] Accepting propagated change (IncludeLinkedDomains --> 1) since version 572 is newer than 571 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.914 selfcontrol-cli[61142:3284957] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 573 is newer than 572 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.915 selfcontrol-cli[61142:3284957] Accepting propagated change (BlockSound --> 5) since version 574 is newer than 573 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:09.915 selfcontrol-cli[61142:3284957] Accepting propagated change (EnableErrorReporting --> 1) since version 575 is newer than 574 and/or 2025-01-08 11:00:09 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:10.253 selfcontrol-cli[61142:3284963] Syncing settings due to propagated changes
+2025-01-08 06:00:10.253 selfcontrol-cli[61142:3284963]  --> Writing settings to disk (haven't been written since 2025-01-08 11:00:05 +0000)
+2025-01-08 06:00:10.288 selfcontrol-cli[61142:3284957] Accepting propagated change (BlockIsRunning --> 1) since version 576 is newer than 575 and/or 2025-01-08 11:00:10 +0000 is newer than 2025-01-08 11:00:09 +0000
+2025-01-08 06:00:10.373 selfcontrol-cli[61142:3284959] INFO: Block successfully added.
+
+
+-----------------_01m09d_06h08m21s------------------
+2025-01-09 06:08:21.997 selfcontrol-cli[65620:4969790] created legacy block end date (null) from --blocklist
+2025-01-09 06:08:22.011 selfcontrol-cli[65620:4969790] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2025-01-09 06:08:22.011 selfcontrol-cli[65620:4969790] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2025-01-09 06:08:22.020 selfcontrol-cli[65620:4969790] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_01m10d_06h00m05s------------------
+2025-01-10 06:00:05.337 selfcontrol-cli[41520:6034507] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-01-10 06:00:09.107 selfcontrol-cli[41520:6034507] Daemon installed successfully!
+2025-01-10 06:00:09.107 selfcontrol-cli[41520:6034507] Refreshed connection and ready to start block!
+2025-01-10 06:00:09.107 selfcontrol-cli[41520:6034507] Connecting to helper tool, daemon connection is (null)
+2025-01-10 06:00:09.107 selfcontrol-cli[41520:6034507] Started helper connection!
+2025-01-10 06:00:10.020 selfcontrol-cli[41520:6034507] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 581 is newer than 580 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-09 09:01:53 +0000
+2025-01-10 06:00:10.022 selfcontrol-cli[41520:6034507] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 582 is newer than 581 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.022 selfcontrol-cli[41520:6034507] Accepting propagated change (BlockEndDate --> 2025-01-11 09:00:05 +0000) since version 583 is newer than 582 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.023 selfcontrol-cli[41520:6034507] Accepting propagated change (ClearCaches --> 1) since version 584 is newer than 583 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.023 selfcontrol-cli[41520:6034507] Accepting propagated change (AllowLocalNetworks --> 1) since version 585 is newer than 584 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.024 selfcontrol-cli[41520:6034507] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 586 is newer than 585 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.025 selfcontrol-cli[41520:6034507] Accepting propagated change (IncludeLinkedDomains --> 1) since version 587 is newer than 586 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.025 selfcontrol-cli[41520:6034507] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 588 is newer than 587 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.026 selfcontrol-cli[41520:6034507] Accepting propagated change (BlockSound --> 5) since version 589 is newer than 588 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.027 selfcontrol-cli[41520:6034507] Accepting propagated change (EnableErrorReporting --> 1) since version 590 is newer than 589 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.374 selfcontrol-cli[41520:6034516] Syncing settings due to propagated changes
+2025-01-10 06:00:10.375 selfcontrol-cli[41520:6034516]  --> Writing settings to disk (haven't been written since 2025-01-10 11:00:05 +0000)
+2025-01-10 06:00:10.647 selfcontrol-cli[41520:6034507] Accepting propagated change (BlockIsRunning --> 1) since version 591 is newer than 590 and/or 2025-01-10 11:00:10 +0000 is newer than 2025-01-10 11:00:10 +0000
+2025-01-10 06:00:10.926 selfcontrol-cli[41520:6034521] INFO: Block successfully added.
+
+
+-----------------_01m30d_06h00m05s------------------
+2025-01-30 06:00:05.410 selfcontrol-cli[39418:1826417] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-01-30 06:00:09.220 selfcontrol-cli[39418:1826417] Daemon installed successfully!
+2025-01-30 06:00:09.220 selfcontrol-cli[39418:1826417] Refreshed connection and ready to start block!
+2025-01-30 06:00:09.220 selfcontrol-cli[39418:1826417] Connecting to helper tool, daemon connection is (null)
+2025-01-30 06:00:09.220 selfcontrol-cli[39418:1826417] Started helper connection!
+2025-01-30 06:00:09.963 selfcontrol-cli[39418:1826417] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 596 is newer than 595 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-11 09:00:05 +0000
+2025-01-30 06:00:09.964 selfcontrol-cli[39418:1826417] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 597 is newer than 596 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.965 selfcontrol-cli[39418:1826417] Accepting propagated change (BlockEndDate --> 2025-01-31 09:00:05 +0000) since version 598 is newer than 597 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.965 selfcontrol-cli[39418:1826417] Accepting propagated change (ClearCaches --> 1) since version 599 is newer than 598 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.966 selfcontrol-cli[39418:1826417] Accepting propagated change (AllowLocalNetworks --> 1) since version 600 is newer than 599 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.966 selfcontrol-cli[39418:1826417] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 601 is newer than 600 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.967 selfcontrol-cli[39418:1826417] Accepting propagated change (IncludeLinkedDomains --> 1) since version 602 is newer than 601 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.968 selfcontrol-cli[39418:1826417] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 603 is newer than 602 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.968 selfcontrol-cli[39418:1826417] Accepting propagated change (BlockSound --> 5) since version 604 is newer than 603 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:09.969 selfcontrol-cli[39418:1826417] Accepting propagated change (EnableErrorReporting --> 1) since version 605 is newer than 604 and/or 2025-01-30 11:00:09 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:10.365 selfcontrol-cli[39418:1826449] Syncing settings due to propagated changes
+2025-01-30 06:00:10.366 selfcontrol-cli[39418:1826449]  --> Writing settings to disk (haven't been written since 2025-01-30 11:00:05 +0000)
+2025-01-30 06:00:11.295 selfcontrol-cli[39418:1826417] Accepting propagated change (BlockIsRunning --> 1) since version 606 is newer than 605 and/or 2025-01-30 11:00:11 +0000 is newer than 2025-01-30 11:00:09 +0000
+2025-01-30 06:00:11.694 selfcontrol-cli[39418:1826445] Syncing settings due to propagated changes
+2025-01-30 06:00:11.695 selfcontrol-cli[39418:1826445]  --> Writing settings to disk (haven't been written since 2025-01-30 11:00:10 +0000)
+2025-01-30 06:00:13.503 selfcontrol-cli[39418:1826445] INFO: Block successfully added.
+
+
+-----------------_01m31d_06h00m05s------------------
+2025-01-31 06:00:05.416 selfcontrol-cli[60820:3503133] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-01-31 06:00:09.208 selfcontrol-cli[60820:3503133] Daemon installed successfully!
+2025-01-31 06:00:09.210 selfcontrol-cli[60820:3503133] Refreshed connection and ready to start block!
+2025-01-31 06:00:09.210 selfcontrol-cli[60820:3503133] Connecting to helper tool, daemon connection is (null)
+2025-01-31 06:00:09.210 selfcontrol-cli[60820:3503133] Started helper connection!
+2025-01-31 06:00:09.786 selfcontrol-cli[60820:3503133] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 611 is newer than 610 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 09:00:05 +0000
+2025-01-31 06:00:09.787 selfcontrol-cli[60820:3503133] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 612 is newer than 611 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.787 selfcontrol-cli[60820:3503133] Accepting propagated change (BlockEndDate --> 2025-02-01 09:00:05 +0000) since version 613 is newer than 612 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.788 selfcontrol-cli[60820:3503133] Accepting propagated change (ClearCaches --> 1) since version 614 is newer than 613 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.788 selfcontrol-cli[60820:3503133] Accepting propagated change (AllowLocalNetworks --> 1) since version 615 is newer than 614 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.789 selfcontrol-cli[60820:3503133] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 616 is newer than 615 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.789 selfcontrol-cli[60820:3503133] Accepting propagated change (IncludeLinkedDomains --> 1) since version 617 is newer than 616 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.790 selfcontrol-cli[60820:3503133] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 618 is newer than 617 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.791 selfcontrol-cli[60820:3503133] Accepting propagated change (BlockSound --> 5) since version 619 is newer than 618 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:09.792 selfcontrol-cli[60820:3503133] Accepting propagated change (EnableErrorReporting --> 1) since version 620 is newer than 619 and/or 2025-01-31 11:00:09 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:10.142 selfcontrol-cli[60820:3503164] Syncing settings due to propagated changes
+2025-01-31 06:00:10.142 selfcontrol-cli[60820:3503164]  --> Writing settings to disk (haven't been written since 2025-01-31 11:00:05 +0000)
+2025-01-31 06:00:10.894 selfcontrol-cli[60820:3503133] Accepting propagated change (BlockIsRunning --> 1) since version 621 is newer than 620 and/or 2025-01-31 11:00:10 +0000 is newer than 2025-01-31 11:00:09 +0000
+2025-01-31 06:00:10.962 selfcontrol-cli[60820:3503159] INFO: Block successfully added.
+
+
+-----------------_02m01d_06h00m05s------------------
+2025-02-01 06:00:05.347 selfcontrol-cli[75684:5125014] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+2025-02-01 06:00:09.203 selfcontrol-cli[75684:5125014] Daemon installed successfully!
+2025-02-01 06:00:09.203 selfcontrol-cli[75684:5125014] Refreshed connection and ready to start block!
+2025-02-01 06:00:09.203 selfcontrol-cli[75684:5125014] Connecting to helper tool, daemon connection is (null)
+2025-02-01 06:00:09.203 selfcontrol-cli[75684:5125014] Started helper connection!
+2025-02-01 06:00:09.810 selfcontrol-cli[75684:5125014] Accepting propagated change (ActiveBlocklist --> (
+    "www.hulu.com",
+    "www.disneyplus.com",
+    "www.youtube.com",
+    "www.netflix.com",
+    "www6.f2movies.to",
+    "mega.nz",
+    "leakedbb.com",
+    "bunkr-albums.io",
+    "linkvertise.com",
+    "telegram.org"
+)) since version 626 is newer than 625 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 09:00:05 +0000
+2025-02-01 06:00:09.811 selfcontrol-cli[75684:5125014] Accepting propagated change (ActiveBlockAsWhitelist --> 0) since version 627 is newer than 626 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.813 selfcontrol-cli[75684:5125014] Accepting propagated change (BlockEndDate --> 2025-02-02 09:00:05 +0000) since version 628 is newer than 627 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.813 selfcontrol-cli[75684:5125014] Accepting propagated change (ClearCaches --> 1) since version 629 is newer than 628 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.814 selfcontrol-cli[75684:5125014] Accepting propagated change (AllowLocalNetworks --> 1) since version 630 is newer than 629 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.815 selfcontrol-cli[75684:5125014] Accepting propagated change (EvaluateCommonSubdomains --> 1) since version 631 is newer than 630 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.816 selfcontrol-cli[75684:5125014] Accepting propagated change (IncludeLinkedDomains --> 1) since version 632 is newer than 631 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.817 selfcontrol-cli[75684:5125014] Accepting propagated change (BlockSoundShouldPlay --> 0) since version 633 is newer than 632 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.817 selfcontrol-cli[75684:5125014] Accepting propagated change (BlockSound --> 5) since version 634 is newer than 633 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:09.818 selfcontrol-cli[75684:5125014] Accepting propagated change (EnableErrorReporting --> 1) since version 635 is newer than 634 and/or 2025-02-01 11:00:09 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:10.214 selfcontrol-cli[75684:5125021] Syncing settings due to propagated changes
+2025-02-01 06:00:10.215 selfcontrol-cli[75684:5125021]  --> Writing settings to disk (haven't been written since 2025-02-01 11:00:05 +0000)
+2025-02-01 06:00:11.081 selfcontrol-cli[75684:5125014] Accepting propagated change (BlockIsRunning --> 1) since version 636 is newer than 635 and/or 2025-02-01 11:00:11 +0000 is newer than 2025-02-01 11:00:09 +0000
+2025-02-01 06:00:11.209 selfcontrol-cli[75684:5125016] INFO: Block successfully added.
+
+
+-----------------_02m02d_06h15m39s------------------
+2025-02-02 06:15:40.019 selfcontrol-cli[97362:5427907] created legacy block end date (null) from --blocklist
+2025-02-02 06:15:40.032 selfcontrol-cli[97362:5427907] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2025-02-02 06:15:40.033 selfcontrol-cli[97362:5427907] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2025-02-02 06:15:40.039 selfcontrol-cli[97362:5427907] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_02m03d_06h09m30s------------------
+2025-02-03 06:09:30.807 selfcontrol-cli[99286:5480922] created legacy block end date (null) from --blocklist
+2025-02-03 06:09:30.820 selfcontrol-cli[99286:5480922] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2025-02-03 06:09:30.820 selfcontrol-cli[99286:5480922] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2025-02-03 06:09:30.825 selfcontrol-cli[99286:5480922] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_02m04d_06h15m58s------------------
+2025-02-04 06:15:58.781 selfcontrol-cli[23373:240487] created legacy block end date (null) from --blocklist
+2025-02-04 06:15:58.798 selfcontrol-cli[23373:240487] ERROR: Failed to authorize installing selfcontrold with status -60005.
+2025-02-04 06:15:58.798 selfcontrol-cli[23373:240487] Reporting error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.} to Sentry...
+2025-02-04 06:15:58.805 selfcontrol-cli[23373:240487] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=501 "There was an error authorizing the installation of SelfControl's helper tool." UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=There was an error authorizing the installation of SelfControl's helper tool.}
+
+
+-----------------_02m05d_08h28m49s------------------
+2025-02-05 08:28:49.559 selfcontrol-cli[36077:1258186] created legacy block end date (null) from --blocklist
+SelfControl Process IS Running
+SecurityAgent Window NOT found
+AdminApproval_scpt:616:633: execution error: User canceled. (-128)
+2025-02-05 08:38:31.500 selfcontrol-cli[36077:1258186] ERROR: Failed to install daemon with error Error Domain=SelfControlErrorDomain Code=1 "Authorization cancelled" UserInfo={SCDescriptionNotFound=false, NSLocalizedDescription=Authorization cancelled}

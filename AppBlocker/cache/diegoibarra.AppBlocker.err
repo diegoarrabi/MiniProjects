@@ -1,0 +1,36 @@
+QuitApp.scpt: execution error: Terminal got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Terminal got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Terminal got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Can’t get application "Cot Editor". (-1728)
+QuitApp.scpt: execution error: System Events got an error: Application isn’t running. (-600)
+QuitApp.scpt: execution error: Messages got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Can’t get application "Unity". (-1728)
+QuitApp.scpt: execution error: Can’t get application "Unity". (-1728)
+QuitApp.scpt: execution error: Can’t get application "Rider". (-1728)
+QuitApp.scpt: execution error: Can’t get application "Rider". (-1728)
+QuitApp.scpt: execution error: Can’t get application "PyCharm Professional Edition". (-1728)
+QuitApp.scpt: execution error: Can’t get application "Rider". (-1728)
+QuitApp.scpt: execution error: Can’t get application "MessagesScript Editor". (-1728)
+QuitApp.scpt: execution error: Pixelmator Pro got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Pixelmator Pro got an error: User canceled. (-128)
+QuitApp.scpt: execution error: Can’t get application "Telegram". (-1728)
+2025-01-29 08:00:40.833 osascript[9357:107326] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-29 08:00:40.833 osascript[9357:107326] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+QuitApp.scpt: execution error: Can’t get application "Telegram". (-1728)
+2025-02-03 14:04:28.318 osascript[2896:5540834] +[IMKClient subclass]: chose IMKClient_Modern
+QuitApp.scpt: execution error: Can’t get application "Playgrounds". (-1728)
+2025-02-03 14:05:46.279 osascript[3482:5543733] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-03 14:05:46.279 osascript[3482:5543733] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+QuitApp.scpt: execution error: Can’t get application "Playgrounds". (-1728)
+2025-02-03 17:51:41.078 osascript[1399:20824] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-03 17:51:41.078 osascript[1399:20824] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+QuitApp.scpt: execution error: Can’t get application "Playgrounds". (-1728)
+2025-02-03 17:52:52.731 osascript[2093:24783] +[IMKClient subclass]: chose IMKClient_Modern
+2025-02-03 17:52:52.732 osascript[2093:24783] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+QuitApp.scpt: execution error: Can’t get application "Swift Playgrounds". (-1728)
