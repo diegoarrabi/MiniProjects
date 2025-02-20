@@ -8,9 +8,11 @@ from pypdf.annotations import FreeText
 from os import path
 from os import mkdir
 from os import listdir
+import os
 
 ## GLOBAL VARIABLES
-temp_dir_name = "temp"
+temp_dir_name = ".temp"
+temp_dir_path = ""
 
 ## FUNCTIONS
 def clearScrean() -> None:
@@ -21,6 +23,7 @@ def userError() -> None:
 
 def inputSetup(user_input: str) -> list[str]:
     global temp_dir_name
+    global temp_dir_path
 
     pdf_list = []
     if user_input.lower() == "done":
@@ -52,16 +55,23 @@ def inputSetup(user_input: str) -> list[str]:
                     temp_dir_name = f"{prefix}{temp_dir_name}"
                 else:
                     # MAKE TEMPORARAY DIRECTORY
-                    mkdir(path.join(user_input, temp_dir_name))
+                    temp_dir_path = path.join(user_input, temp_dir_name)
+                    mkdir(temp_dir_path)
                     break
             break
     return pdf_list
 
+def deletePDFs():
+    pass
+
+
 def addPageNumber(pdf: str) -> str:
     global temp_dir_name
-    dir_name = path.dirname(pdf)
+    global temp_dir_path
+
+    # dir_name = path.dirname(pdf)
     pdf_name = path.basename(pdf)[:-4]
-    output_name = path.join(dir_name, temp_dir_name, f"{pdf_name}-{temp_dir_name}.pdf")
+    output_name = path.join(temp_dir_path, f"{pdf_name}.pdf")
     # print(output_name)
 
     reader = PdfReader(pdf)
@@ -79,31 +89,60 @@ def addPageNumber(pdf: str) -> str:
     pdf_name_annotation.flags = 4
 
     writer.add_annotation(page_number=0, annotation=pdf_name_annotation)
-    # with open(output_name, "wb") as pdf_edit:
-        # writer.write(pdf_edit)
+    with open(output_name, "wb") as pdf_edit:
+        writer.write(pdf_edit)
     
     return output_name
 
-def mergeNewPages(pdf:str) -> None:
-    global temp_dir_name
-
-    print()
 
 def main():
     clearScrean()
-    # pdf_directory = input("Enter Full Path of Directory Containing PDFs (or 'done' to exit)\n: ")
-    pdf_directory = "/Users/diegoibarra/Developer/1_myProjects/Misc/Slices"
+    
+    pdf_directory = input("Enter Full Path of Directory Containing PDFs (or 'done' to exit)\n: ")
+    clearScrean()
+    pdf_delete_option = input("Would you like to DELETE the originals? (y/n)\n: ").lower()
+    clearScrean()
+
+    # GET PDFS FROM PROVIDED DIRECTORY
     pdf_list = inputSetup(pdf_directory)
     pdf_list.sort()
 
-    temp_marked_pdf = []
+    # WATERMARK EACH PAGE
+    temp_marked_pdf_list = []
     for pdf in pdf_list:
-        temp_marked_pdf.append(addPageNumber(pdf))
+        temp_marked_pdf_list.append(addPageNumber(pdf))
 
-    for pdf in temp_marked_pdf:
-        # pdf_name = path.basename(pdf)[:-4]
-        # print(path.dirname(pdf))
-        print(pdf)
+    # COMBINE PDFS
+    merger = PdfWriter()
+    for pdf in temp_marked_pdf_list:
+        merger.append(pdf)
+        
+    new_file_name = path.join(path.dirname(pdf_directory), f"{path.basename(pdf_directory)}_Merged.pdf")
+    merger.write(new_file_name)
+    merger.close()
+
+    # REMOVE TEMPORARY DIRECTORY
+    all_temp_files_list = listdir(temp_dir_path)
+    for pdf in all_temp_files_list:
+        temp_pdf_path = path.join(temp_dir_path, pdf)
+        os.remove(temp_pdf_path)
+    os.rmdir(temp_dir_path)
+
+    # REMOVE ORIGINALS IF OPTED
+    if pdf_delete_option == "y":
+        for pdf in pdf_list:
+            pdf_path = path.join(pdf_directory, pdf)
+            os.remove(pdf_path)
+        pdf_directory_contents = listdir(pdf_directory)
+        if len(pdf_directory_contents) == 0 or (len(pdf_directory_contents) == 1 and pdf_directory_contents[0].lower() == ".ds_store"):
+            os.remove(path.join(pdf_directory, ".DS_store"))
+            os.rmdir(pdf_directory)
+    
+    exit(print("DONE (:"))
+    
+    
+        
+    
 
 
 if __name__ == "__main__":
