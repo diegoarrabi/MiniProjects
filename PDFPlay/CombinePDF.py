@@ -2,7 +2,6 @@
 
 from pypdf import PdfReader
 from pypdf import PdfWriter
-from pypdf import PdfMerger
 from pypdf.annotations import FreeText
 
 from os import path
