@@ -83,7 +83,7 @@ def actOnPdf(pdf_fullpath: str, pdf_newpath: str) -> None:
 
 def main() -> None:
     # pdf_dir_path = "/Users/diegoibarra/Downloads/test"
-    pdf_dir_path = "/Users/diegoibarra/Media/Medicine Videos/Clinical/BnB Step2 Slides"
+    pdf_dir_path = "/Users/diegoibarra/Media/Medicine Videos/Clinical/test"
     backup_path = makeBackup(pdf_dir_path)
 
     pdf_list = listdir(pdf_dir_path)

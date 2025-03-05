@@ -29,12 +29,15 @@ def removePrefixCount(item: str) -> str:
     return item
 
 
-def sortTopics(dir_items: list[str], dir_path: str) -> None:
+def sortTopics(dir_items: list[str], dir_path: str) -> list[str]:
     ds_store = ".DS_Store"
+    pdf_item = ".pdf"
     dir_items.sort()
     if ds_store in dir_items:
         remove(path.join(dir_path, str(ds_store)))
         dir_items = dir_items.remove(ds_store)
+    new_dir_items = [item for item in dir_items if not item.endswith(pdf_item)]
+    return new_dir_items
 
 
 def addLectures(topic_object: SubTopic, lectures_path: str) -> None:
@@ -44,7 +47,7 @@ def addLectures(topic_object: SubTopic, lectures_path: str) -> None:
     topic_object.addLectureList(lectures_list)
 
 
-main_dir_path = "/Users/diegoibarra/Media/Medicine Videos/Clinical/BoardsBeyond"
+main_dir_path = "/Users/diegoibarra/Media/Clinical/BoardsBeyond"
 
 general_topic_name = "1. General Topics"
 main_topic_prefix = "#"
@@ -53,19 +56,19 @@ lecture_prefix = "- [ ]"
 indent_size = 1
 
 main_topics_list = listdir(main_dir_path)
-sortTopics(main_topics_list, main_dir_path)
+main_sorted_list = sortTopics(main_topics_list, main_dir_path)
 
 # ITERATE THROUGH MAIN TOPICS
-for main_topic_name in main_topics_list:
+for main_topic_name in main_sorted_list:
     main_topic_path = path.join(main_dir_path, main_topic_name)
     main_topic = MainTopic(name=main_topic_name, path=main_topic_name)
 
     # MAKE SUBTOPIC LIST
     subtopics_list = listdir(main_topic_path)
-    sortTopics(subtopics_list, main_topic_path)
+    suptopic_sorted_list = sortTopics(subtopics_list, main_topic_path)
 
     # ITERATE THROUGH SUBTOPICS
-    for subtopic_name in subtopics_list:
+    for subtopic_name in suptopic_sorted_list:
         general_topics = False
         subtopic_path = path.join(main_topic_path, subtopic_name)
 
@@ -94,50 +97,3 @@ for main_topic_name in main_topics_list:
     print("")
 
 
-# all_topics = os.listdir(main_dir)
-# all_topics.sort()
-
-# topic_breakdown = {"Topic_Name": "", "Sub_Topic_Name": {}}
-
-
-# for topic in all_topics:
-#     topic_video_count = 0
-#     topic_path = os.path.join(main_dir, topic)
-#     if os.path.basename(topic_path).startswith("."):
-#         continue
-#     topic_breakdown["Topic_Name"] = topic
-
-#     all_subtopics = os.listdir(topic_path)
-#     all_subtopics.sort()
-
-#     for sub_topic in all_subtopics:
-#         topic_items = []
-#         sub_topic_video_count = 0
-#         sub_topic_path = os.path.join(topic_path, sub_topic)
-#         if os.path.basename(sub_topic_path).startswith("."):
-#             continue
-
-#         if os.path.isdir(sub_topic_path):
-#             sub_topic_items = []
-#             topic_breakdown["Sub_Topic_Name"] = {sub_topic: sub_topic_items}
-
-#             all_sub_topic_items = os.listdir(sub_topic_path)
-#             all_sub_topic_items.sort()
-
-#             for sub_topic_item in all_sub_topic_items:
-#                 sub_topic_item_path = os.path.join(sub_topic_path, sub_topic_item)
-#                 if os.path.basename(sub_topic_path).startswith("."):
-#                     continue
-#                 sub_topic_items.append(sub_topic_item)
-#                 topic_video_count += 1
-#                 sub_topic_video_count += 1
-
-#         elif os.path.isfile(sub_topic_path):
-#             topic_items.append(sub_topic)
-#             topic_breakdown["Sub_Topic_Name"] = {"General Topics": topic_items}
-#             topic_video_count += 1
-#             sub_topic_video_count += 1
-
-#     print(topic_breakdown["Topic_Name"])
-#     print(topic_breakdown["Sub_Topic_Name"])
-#     # print(f"{topic}: {topic_video_count} Videos", end="\n\n")
