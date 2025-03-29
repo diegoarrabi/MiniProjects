@@ -1,11 +1,23 @@
+#!/bin/zsh
+
 TXT_PATH="/Users/diegoibarra/Developer/1_myProjects/MiniProjects/OpenWorkDirectory/WorkDirectory.txt"
 
-my_path=$(head -n 1 "$TXT_PATH")
-echo $my_path
+WORK_PATH=$(head -n 1 "$TXT_PATH")
 
-if [ -d "$my_path" ];
+applescript_code=$(cat << EOF
+    set directory_path to POSIX file "${WORK_PATH}"
+    tell application "Finder"
+        open directory_path
+        activate
+    end tell
+EOF
+)
+
+if [ -d "$WORK_PATH" ];
 then
-    open -R "$my_path"
+    echo $WORK_PATH
+    osascript -e $applescript_code &
+
 else
     "/Users/diegoibarra/Developer/1_myProjects/MiniProjects/OpenWorkDirectory/AppleScript_Notification.py" $my_path
     open -a Finder

@@ -39,7 +39,7 @@ end ClinicalVideos
 
 
 on ClinicalVideosChecklist(desired_position, desired_size)
-	set file_path to POSIX file "/Users/diegoibarra/Desktop/Step2 Checklist.md"
+	set file_path to POSIX file "/Users/diegoibarra/Documents/School/OSU/Education/Step 2/Step2 Checklist.md"
 	tell application "MarkEdit"
 		open file_path
 		delay 1

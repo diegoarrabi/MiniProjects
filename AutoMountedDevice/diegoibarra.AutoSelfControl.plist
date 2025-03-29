@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>diegoibarra.AutoSelfControl</string>
+		<key>Program</key>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/AutoSelfControl</string>
+		<key>StandardErrorPath</key>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.out</string>
+		<key>StandardOutputPath</key>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.outt</string>
+		<key>StartCalendarInterval</key>
+		<dict>
+			<key>Hour</key>
+			<integer>6</integer>
+			<key>Minute</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</plist>
