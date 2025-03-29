@@ -3,19 +3,15 @@
 <plist version="1.0">
 	<dict>
 		<key>Label</key>
-		<string>diegoibarra.AutoSelfControl</string>
+		<string>diegoibarra.AutoMountedDevice</string>
 		<key>Program</key>
-		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/AutoSelfControl</string>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoMountedDevice/AutoMountedDevice.py</string>
+		<key>StartOnMount</key>
+		<true/>
 		<key>StandardErrorPath</key>
 		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.out</string>
 		<key>StandardOutputPath</key>
 		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.outt</string>
-		<key>StartCalendarInterval</key>
-		<dict>
-			<key>Hour</key>
-			<integer>6</integer>
-			<key>Minute</key>
-			<integer>0</integer>
-		</dict>
+		
 	</dict>
 </plist>
