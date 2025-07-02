@@ -1,17 +1,18 @@
 #!/usr/bin/osascript
 
 on run {}
-	set calendar_active to isCalendarActive()
+	set calendar_active to isAppActive("Calendar")
+	set shortcuts_active to isAppActive("Shortcuts")
 	
 	set count_file_path to POSIX file "/Users/diegoibarra/Developer/1_myProjects/MiniProjects/OutlookCalendarUpdate/count"
 	
 	--Get Previous Count
 	set previous_count to paragraph 1 of (read count_file_path)
-	log "Previous Count: " & previous_count
+	--log "Previous Count: " & previous_count
 	
 	--Get Current Count	
 	tell application "Calendar" to set current_count to (count of events of calendar "Calendar") as string
-	log "Current Count: " & current_count
+	--log "Current Count: " & current_count
 	
 	--Check if they are the same value
 	if previous_count is not equal to current_count then
@@ -23,6 +24,11 @@ on run {}
 	if not calendar_active then
 		tell application "Calendar" to quit
 	end if
+	
+	if not shortcuts_active then
+		tell application "Shortcuts" to quit
+	end if
+	
 end run
 
 on writeToFile(this_data, target_file) -- (string, file path as string)
@@ -50,7 +56,6 @@ on getDate()
 	return the_date
 end getDate
 
-on isCalendarActive()
-	set app_name to "Calendar"
+on isAppActive(app_name)
 	tell application "System Events" to (name of processes) contains app_name
-end isCalendarActive
+end isAppActive

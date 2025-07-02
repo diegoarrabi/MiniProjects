@@ -47,7 +47,7 @@ def addLectures(topic_object: SubTopic, lectures_path: str) -> None:
     topic_object.addLectureList(lectures_list)
 
 
-main_dir_path = "/Users/diegoibarra/Media/Clinical/BoardsBeyond"
+main_dir_path = "/Users/diegoibarra/Media/Medical/BoardsBeyond"
 
 general_topic_name = "1. General Topics"
 main_topic_prefix = "#"
@@ -95,5 +95,3 @@ for main_topic_name in main_sorted_list:
             print(f"{item_prefix}{removePrefixCount(lecture_topic)}")
         print()
     print("")
-
-

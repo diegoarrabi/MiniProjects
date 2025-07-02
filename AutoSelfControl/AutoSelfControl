@@ -1,16 +1,18 @@
 #!/bin/zsh
 
-WORK_DIR="/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl"
-cd $WORK_DIR
-
-current_time="$(/Users/diegoibarra/Developer/1_myProjects/MiniTasks/Datetimed/datetimed)"
-echo "\n\n-----------------"$current_time"------------------" >&2
-
 SELFCONTROL_CLI="/Applications/SelfControl.app/Contents/MacOS/selfcontrol-cli"
 
-BLOCKLIST_FILE="$WORK_DIR"/"blocklist_entertainment.selfcontrol"
+WORK_DIR="/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl"
+RESOURCE_DIR="${WORK_DIR}/Resources"
+BLOCKLIST_FILE="${RESOURCE_DIR}/blocklist_entertainment.selfcontrol"
 
-END_DATE=$(./endDate.py)
+# START_DATE=$(./endDate.py 1)
+END_DATE=$(./endDate.py 2)
 
-AdminApproval_scpt &
-sudo $SELFCONTROL_CLI --uid 501 start --blocklist $BLOCKLIST_FILE --enddate $END_DATE
+cd $WORK_DIR
+
+# echo $START_DATE
+# echo $END_DATE
+
+./AdminApproval_scpt &
+sudo $SELFCONTROL_CLI --uid 501 start --blocklist $BLOCKLIST_FILE --enddate $END_DATE > /dev/null 2>&1

@@ -9,9 +9,8 @@
 		<key>StartOnMount</key>
 		<true/>
 		<key>StandardErrorPath</key>
-		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.out</string>
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoMountedDevice/.data/cache/AutoMountedDevice.err</string>
 		<key>StandardOutputPath</key>
-		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoSelfControl/Resources/diegoibarra.AutoSelfControl.outt</string>
-		
+		<string>/Users/diegoibarra/Developer/1_myProjects/MiniProjects/AutoMountedDevice/.data/cache/AutoMountedDevice.out</string>
 	</dict>
 </plist>

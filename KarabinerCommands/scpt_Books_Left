@@ -1,3 +1,0 @@
-#!/usr/bin/osascript
-
-on books_running()	tell application "System Events" to (name of processes) contains "Books"end books_runningif books_running() then	set previous_app to (path to frontmost application as text)	activate application "Books"	tell application "System Events" to key code 123 -- Left	activate application previous_append if

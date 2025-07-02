@@ -1,0 +1,30 @@
+#!/Users/diegoibarra/.config/pyenv/versions/3.13.0/bin/python
+
+import os
+import shutil
+from datetime import datetime
+from time import sleep
+from subprocess import run
+
+HOMEDIR = os.path.expanduser("~")
+DOWNLOADS_DIR = os.path.join(HOMEDIR, "Downloads")
+AMBOSS_DIR = os.path.join(DOWNLOADS_DIR, "amboss")
+SCREENSHOT_PREFIX = "a_screenshot"
+
+downloads_contents = [x for x in os.listdir(DOWNLOADS_DIR) if not x.startswith(".") | os.path.isdir(os.path.join(DOWNLOADS_DIR, x))]
+screenshots_count = sum(1 for item in downloads_contents if item.startswith(SCREENSHOT_PREFIX) == True)
+
+if screenshots_count > 1:
+    print("More than one screenshot in downloads directory")
+    sleep(1)
+    run(['open', '-R', DOWNLOADS_DIR])
+    exit()
+elif screenshots_count < 1:
+    print("No screenshots in downloads directory")
+    sleep(1)
+    exit()
+elif screenshots_count == 1:
+    screenshot_filename = [item for item in downloads_contents if item.startswith(SCREENSHOT_PREFIX) == True][0]
+    file_path = os.path.join(DOWNLOADS_DIR, screenshot_filename)
+    to_file_path = os.path.join(AMBOSS_DIR, screenshot_filename)
+    shutil.move(file_path, to_file_path)

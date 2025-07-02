@@ -68,30 +68,32 @@ def actOnPdf(pdf_fullpath: str, pdf_newpath: str) -> None:
         added_page = pdf_writer.add_page(page)
         
         
-        if "Jason Ryan" in page_text:
-            page_text_list = page_text.splitlines()
-            subtopic_title = page_text_list[0]
-            pdf_writer.add_outline_item(subtopic_title, added_page)
-        
-
+       
+    
     # USES THE SAME FILE NAME; ORIGINALS MOVED INTO BACKUP
     with open(pdf_fullpath, "wb") as output_pdf:
         pdf_writer.write(output_pdf)
+        print("pdf should be writing?")
     pdf_reader.close()
 
 
 
 def main() -> None:
     # pdf_dir_path = "/Users/diegoibarra/Downloads/test"
-    pdf_dir_path = "/Users/diegoibarra/Media/Medicine Videos/Clinical/test"
-    backup_path = makeBackup(pdf_dir_path)
+    # pdf_dir_path = "/Users/diegoibarra/Media/Medicine Videos/Clinical/test"
+    pdf_dir_path = "/Users/diegoibarra/Developer/1_myProjects/MiniProjects/PDFPlay"
+    # backup_path = makeBackup(pdf_dir_path)
 
     pdf_list = listdir(pdf_dir_path)
     pdf_path_list = [path.join(pdf_dir_path, pdf_file) for pdf_file in pdf_list if path.isfile(path.join(pdf_dir_path, pdf_file))]
     sortItems(pdf_path_list)
     
     for pdf_path in pdf_path_list:
-        actOnPdf(pdf_path, backup_path)
+        _, file_ext = path.splitext(pdf_path)
+        
+        if file_ext.lower() == ".pdf":
+            backup_path = makeBackup(pdf_dir_path)
+            actOnPdf(pdf_path, backup_path)
 
 
 if __name__ == "__main__":
