@@ -1,58 +1,98 @@
+
 import os
 import subprocess
 
 
-class Item:
-    def __init__(self, path: str):
-        self.isdir: bool = os.path.isdir(path)
-        self.isfile: bool
-        self.path = path
-        self.item_name: str = os.path.basename(path).upper()
-        self.contents: list
+class Video:
+    def __init__(self, filepath: str, mainpath: str):
+        self.main_path = mainpath
+        self.path = filepath
+        self.name: str
+        self.topic_name: str
+        self.duration_sec: float
+        self.__getName()
+        self.__getSeconds()
 
-    def dirContents(self):
-        self.isfile = not self.isdir
-        if self.isdir:
-            self.contents = [os.path.join(self.path, name) for name in os.listdir(self.path)
-                             if not name.startswith(".") and not name.lower().endswith(".pdf")]
-    
-    
-    
+    def __getSeconds(self):
+        cmd = subprocess.run([
+            "ffprobe",
+            "-v",
+            "error",
+            "-of",
+            "csv=p=0",
+            "-show_entries",
+            "format=duration",
+            self.path
+        ],
+            capture_output=True,
+            text=True
+        )
+        if cmd.returncode == 1:
+            exit(print(cmd.stderr))
+        try:
+            self.duration_sec = round(float(cmd.stdout))
+        except ValueError:
+            exit(print(f"{cmd.stdout} NOT A FLOAT"))
 
-
-class VideoTopic:
-    def __init__(self, directory: str):
-        self.path = directory
-        self.topic_name: str = os.path.basename(directory).upper()
-        self.contents: list[Item] = []
-        self.dirContents()
-
-    def dirContents(self):
-        content_paths = [os.path.join(self.path, name) for name in os.listdir(self.path)
-                         if not name.startswith(".") and not name.lower().endswith(".pdf")]
-        for item in content_paths:
-            self.contents.append(Item(item))
-        
-
-    def iterDir(self, path: Item):
-        if path.isfile: 
-            print("IS FILE")
-        
-
-    def printContents(self):
-        print(self.topic_name)
+    def __getName(self):
+        self.name, _ = os.path.splitext(os.path.basename(self.path))
+        topic_split = (self.path.replace(self.main_path, "").removeprefix("/")).split("/")
+        topic_split = topic_split[:-1]
+        self.topic_name = topic_split[0]
 
 
+def timeString(total_seconds: float):
+    # if total_seconds >= 3600:
+    hours = int(total_seconds // 3600)
+    minutes = int(total_seconds % 3600) // 60
+    # seconds = int(total_seconds % 60)
+    time = f" {hours:02d}:{minutes:02d}"
+    return time
 
 
-PARENT_DIRECTORY = os.path.join(os.path.dirname(__file__), "resources", "videos")
-topics_list = [os.path.join(PARENT_DIRECTORY, path) for path in os.listdir(PARENT_DIRECTORY) if not path.startswith(".")]
+PARENT_DIRECTORY = os.path.join(os.path.expanduser("~"), "Media", "Medical", "BoardsBeyond")
+# PARENT_DIRECTORY = os.path.join(os.path.dirname(__file__), "resources", "videos")
 
-all_topics_list: list[VideoTopic] = []
+cmd = subprocess.run(["ls", "-R", PARENT_DIRECTORY], capture_output=True, text=True)
+output = cmd.stdout
+error = cmd.stderr
 
-for topic_path in topics_list:
-    all_topics_list.append(VideoTopic(topic_path))
+current_directory = ""
+skip = True
 
-for item in all_topics_list:
-    print(item.topic_name)
-    item.printContents()
+all_videos: list[Video] = []
+videos_dict: dict[str, int] = {}
+
+for line in output.splitlines():
+    line = line.replace(":", "")
+
+    if os.path.isdir(line):
+        skip = False
+        current_directory = line
+    else:
+        if skip:
+            continue
+        if line.endswith(".mp4"):
+            line = os.path.join(current_directory, line)
+            all_videos.append(Video(line, PARENT_DIRECTORY))
+
+
+for video in all_videos:
+    if not videos_dict.get(video.topic_name):
+        videos_dict[video.topic_name] = video.duration_sec
+    else:
+        videos_dict[video.topic_name] += video.duration_sec
+
+videos: list[tuple[int, str]] = []
+
+for topic in videos_dict:
+    topic_name = f"{topic} "
+    topic_seconds = videos_dict[topic]
+    videos.append((topic_seconds, topic_name))
+
+videos.sort()
+
+with open("TopicTime.txt", "w") as writeFile:
+    for sorted in videos:
+        writeFile.write(f"{sorted[1]:-<35}{timeString(sorted[0])}\n")
+
