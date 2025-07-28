@@ -44,22 +44,18 @@ def main():
             my_file_contents[i] = text_line.rstrip()
         return my_file_contents
 
-    # file_name = "ApplicationList.txt"
-    # file_contents = openFile(file_name)
-
     application_list = [
-#       "Telegram",
+        "Telegram",
         "Arduino IDE",
-#        "Pixelmator Pro",
+        "Pixelmator Pro",
         "Pixelorama",
         "Swift Playground",
-#        "Xcode",
-        "Shortcuts",
+        "Xcode",
+        # "Shortcuts",
         "Automator",
         "Messages",
-#        "Script Editor",
-#        "Visual Studio Code",
-        # "Terminal",
+        "Script Editor",
+        "Visual Studio Code",
     ]
 
     for title in application_list:

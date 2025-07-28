@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calendar</title>
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 1250px;
+      width: 1750px;
+      margin: 0;
+      padding: 0;
+    }
+
+    table {
+      table-layout: fixed;
+      border-collapse: collapse;
+      color: rgba(204, 204, 204, 0.80);
+      aspect-ratio: 7/5;
+      flex: 1;
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    /* CELL DATE */
+    tr:nth-child(odd) td {
+      color: rgba(208, 208, 208, 0.50);
+      vertical-align: top;
+      padding: 0.3em 0.5em 0.2em;
+      text-align: right;
+      font-size: 1.2em;
+      aspect-ratio: 7;
+      overflow: hidden;
+      min-height: 1em;
+      height: 2%;
+    }
+
+    /* CELL INFORMATION */
+    tr:nth-child(even) td {
+      vertical-align: top;
+      padding-left: 0.5em;
+      text-align: left;
+      font-size: 1.2em;
+    }
+
+    /* VERTICAL LINES */
+    td:nth-child(even) {
+      border-left: 0.05em solid rgba(208, 208, 208, 0.50);
+      border-right: 0.05em solid rgba(208, 208, 208, 0.50);
+    }
+    td:last-child {
+      border-right: 0;
+    }
+
+    /* HORIZONTAL LINES */
+    tr:nth-child(2n+1) {
+      border-top: 0.05em solid rgba(208, 208, 208, 0.50);
+    }
+    tr:last-child, tr:first-child {
+      border-bottom: 0;
+      border-top: 0;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <table>
+    <tbody>
+      <tr class="week-1" id="week-1-date">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr class="week-1" id="week-1-contents">
+        <td>hello</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>hello</td>
+        <td></td>
+      </tr>
+      <tr class="week-2" id="week-2-date">
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+      </tr>
+      <tr class="week-2" id="week-2-contents">
+        <td></td>
+        <td></td>
+        <td>hello</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="week-3" id="week-3-date">
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+      <tr class="week-3" id="week-3-contents">
+        <td>hello</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>hello</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="week-4" id="week-4-date">
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+      </tr>
+      <tr class="week-4" id="week-4-contents">
+        <td></td>
+        <td>hello</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>hello</td>
+      </tr>
+      <tr class="week-5" id="week-5-date">
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="week-5" id="week-5-contents">
+        <td>hello</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
